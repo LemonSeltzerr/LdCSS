@@ -1,0 +1,337 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+
+.instrument-serif-regular {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    background: url('https://68.media.tumblr.com/55ab69e8654f7b40c0f6855c8ca22961/tumblr_omjk2lVUt31tliyzbo1_540.gif') no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Instrument Serif", serif !important;
+    color: rgba(12,29,14) !important;
+    border: none;
+}
+
+
+.topbar {
+    background: rgba(0,0,0,0.46);
+    font-family: "Instrument Serif";
+    color: rgb(100,14,14);
+    !important;
+}
+.navbar {
+    background: rgba(0,0,0,0.46);
+    font-family: "Instrument Serif";
+    color: rgba(113,18,18,0.7) !important;
+    border: dashed;
+    box-shadow: none;
+    border-radius: 80px !important;
+}
+.navbar li a {
+    color: rgba(240,112,112,0.46) !important;
+    font-family: "Instrument Serif";
+    color: white;
+    border: none;
+    box-shadow: none;
+    border-radius: 80px !important !important;
+}
+.navbar li a:hover {
+    background: rgba(113,18,18,0.7) !important;
+    font-family: "Instrument Serif";
+    border: none;
+    box-shadow: none;
+    border-radius: 80px !important;
+    color: white;
+    !important;
+}
+
+
+.container.main {
+    background: rgba(0,0,0,0.42);
+    font-family: "Instrument Serif";
+    !important border: dashed;
+    color: rgba(113,18,18,0.7) !important;
+    box-shadow: none;
+    border-radius: 80px;
+}
+.col-md-9 {
+    background: rgba(0,0,0,0.07);
+    font-family: "Instrument Serif";
+    border: none !important;
+    color: rgba(113,18,18,0.7);
+    box-shadow: none;
+    border-radius: 80px;
+}
+/* Start https://www.cursors-4u.com */
+* {
+    cursor: url(https://cur.cursors-4u.net/holidays/hol-1/hol62.cur), auto !important;
+}
+/* End https://www.cursors-4u.com */
+
+
+.breadcrumb {
+    background: rgba(109,59,59,0.75);
+    font-family: "Instrument Serif";
+}
+.breadcrumb .active {
+    color: rgb(107,47,54);
+    font-family: "Instrument Serif";
+    border: none !important;
+}
+
+
+.alert {
+    background: rgba(0,0,0,0.19);
+    font-family: "Instrument Serif";
+    color: rgb(107,47,54) !important;
+    border: none !important;
+}
+.alert-warning,
+.alert-danger {
+    background: rgba(0,0,0,0.19);
+    font-family: "Instrument Serif";
+    border: none;
+}
+
+
+.feature,
+div.left {
+    background: rgba(98,19,19,0);
+    font-family: "Instrument Serif" !important;
+    border: none !important;
+    !important;
+}
+
+
+.panel {
+    background: rgba(22,22,22,0.04) !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: rgba(5,1,1,0.82) !important;
+}
+.progress {
+    background: rgba(192,40,40,0.3);
+}
+.progress-div {
+    color: rgba(162,35,35,0.95) !important;
+}
+.progress-bar {
+    background: rgba(160,66,66,0.88);
+}
+
+
+h1 {
+    color: rgba(166,26,26,0.94);
+    font-size: 48px;
+    font-family: "Instrument Serif";
+}
+h3 {
+    color: rgba(166,30,26,0.94) !important;
+    font-size: 24px !important;
+    font-family: "Instrument Serif";
+}
+
+
+.cave-grid,
+.mound-grid {
+    background: rgba(1,1,1,0);
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+
+.table {
+    background: rgba(97,136,70,0) !important;
+    font-family: "Instrument Serif";
+    border: none;
+}
+.top,
+.bottom,
+th,
+.table .left {
+    background: rgba(97,136,70,0) !important;
+}
+.inner-table .left {
+    background: rgba(98,25,25,0.5) !important;
+    color: black;
+}
+.inner-table .right {
+    background: rgba(0,0,0,0) !important;
+    color: rgb(236,163,163);
+}
+.right_odd {
+    background: rgba(247,247,247,0) !important;
+}
+.right_cub {
+    background: rgba(97,136,70,0.5) !important;
+}
+a:link,
+a:visited {
+    color: rgb(255,255,255) !important;
+    font-fargb(71,8,8) "Instrument Serif" !important;
+}
+a:hover {
+    color: rgb(113,12,12) !important;
+    font-family: "Instrument Serif" !important;
+}
+
+
+input,
+select,
+textarea {
+    background:rgba(156,255,0,)border: none !important;
+    box-shadow: none !important;
+    color: rgb(0,0,0) !important;
+    text-shadow: none !important;
+    font-family: "Instrument Serif";
+}
+
+
+input[type=button] {
+    background: rgb(255,255,255) !important;
+    border: none !important;
+}
+input[type=button]:hover,
+input[type=submit]:hover {
+    background: rgb(215,182,182) !important;
+    font-family: "Instrument Serif";
+}
+div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
+    content: url('https://www.pngall.com/wp-content/uploads/10/Mothman-PNG-Background-180x180.png');
+    width: 200px;
+    height: 200px;
+    margin-top: -50px;
+    margin-left: 25px;
+    color: black !important;
+}
+
+
+div#lion_image {
+    border-radius: 50% !important;
+    border: dashed;
+    overflow: hidden;
+    margin-top: 15px;
+    /* May need adjusting */
+    margin-left: 12px;
+}
+
+
+div.cave-grid>img 
+/* Pregnant Lionesses */
+{
+    content: url('https://lorethrill.com/wp-content/uploads/2021/08/Mothman-2_LI-e1652284772261.jpg') !important;
+    border-radius: 50px;
+}
+
+
+a[href$="381245"]>div.cave-grid>img {
+    content: url('https://lorethrill.com/wp-content/uploads/2021/08/Mothman-2_LI-e1652284772261.jpg') !important;
+}
+
+
+a[href$="325460"]>div.cave-grid>img {
+    content: url('https://lorethrill.com/wp-content/uploads/2021/08/Mothman-2_LI-e1652284772261.jpg') !important;
+}
+
+
+a[href$="210125"]>div.cave-grid>img {
+    content: url('https://lorethrill.com/wp-content/uploads/2021/08/Mothman-2_LI-e1652284772261.jpg') !important;
+}
+
+
+a[href$="lionoverview.php?id=269782"]>div.cave-grid>img 
+/* Pride Overview */
+{
+    content: url('https://lorethrill.com/wp-content/uploads/2021/08/Mothman-2_LI-e1652284772261.jpg') !important;
+}
+
+
+a[href$="unsorted.php?id=269782"]>div.cave-grid>img 
+/* Unsorted */
+{
+    content: url('https://lorethrill.com/wp-content/uploads/2021/08/Mothman-2_LI-e1652284772261.jpg') !important;
+}
+
+
+.mound-grid img 
+/* Mound(s) */
+{
+    background: url("https://lorethrill.com/wp-content/uploads/2021/08/Mothman-2_LI-e1652284772261.jpg");
+    width: 0;
+    height: 0;
+    padding-top: 80px;
+    padding-right: 130px;
+}
+.s-chat-message:nth-child(even) {
+    background: rgb(185,143,154) !important;
+    color: #000000 !important;
+    border: none;
+}
+.s-chat-message:nth-child(odd) {
+    background: rgb(151,113,113) !important;
+    color: rgb(0,0,0) !important;
+    border: none !important;
+}
+
+
+.s-chat-message__pinned {
+    background: rgb(154,67,67) !important;
+    color: rgba(0,0,0, 1) !important;
+    border: none !important;
+}
+/* Timestamps */
+.s-chat-message_timestamp {
+    color: #42201c !important;
+}
+
+
+#chatMessageContainer {
+    border: none !important;
+}
+/* Channel Button */
+button#label_currentChannel {
+    background: rgb(149,76,76) !important;
+    color: rgba(0,0,0, 1) !important;
+    border: dashed !important;
+    **;
+}
+
+
+.breadcrumb::after {
+        content: "CSS By LemonSeltzer (#269782)";
+        color: #0b0606;
+        position: absolute;
+        right: 13%; /* (This may need adjusting) */
+        z-index: 100
+    }
+
+
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%
+        }
+    }
