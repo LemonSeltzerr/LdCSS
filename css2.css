@@ -1,0 +1,449 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Instrument+Serif:ital@0;1&display=swap');
+
+
+.caveat-<uniquifier> {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+
+body {
+    background: url('https://wallpaperaccess.com/full/7946146.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Caveat", serif !important;
+    color: rgba(81,23,196,0.54) !important;
+    border: none;
+}
+
+
+.topbar {
+    background: rgba(181,203,230,0.71);
+    font-family: "Caveat";
+    color: rgb(255,255,255);
+    !important;
+}
+.navbar {
+    background: rgba(255,255,255,0);
+    font-family: "Caveat";
+    color: rgba(156,210,214,0.7) !important;
+    border: ;
+    box-shadow: 90x;
+    border-radius: 80px !important;
+}
+.navbar li a {
+    color: rgba(87,205,230,0.92) !important;
+    font-family: "Caveat";
+    color: rgb(236,197,197);
+    border: none;
+    box-shadow: none;
+    border-radius: 80px !important !important;
+}
+.navbar li a:hover {
+    background: rgba(255,207,207,0.7) !important;
+    font-family: "Caveat";
+    border: none !important;
+    box-shadow: none;
+    border-radius: 80px !important;
+    color: white;
+    !important;
+}
+
+
+.container.main {
+    background: rgba(219,177,177,0.65);
+    font-family: "Caveat";
+    !important border: dashed;
+    color: rgba(150,166,227,0.7) !important;
+    box-shadow: none;
+    border-radius: 80px;
+    text-align: center;
+}
+.col-md-9 {
+    background: rgba(200,214,248,0);
+    font-family: "Caveat";
+    border: none !important;
+    color: rgba(123,59,59,0.7);
+    box-shadow: none;
+    border-radius: 80px;
+    text-align: center !important;
+}
+/* Start https://www.cursors-4u.com */
+* {
+    cursor: url(https://cur.cursors-4u.net/holidays/hol-1/hol62.cur), auto !important;
+}
+/* End https://www.cursors-4u.com */
+
+
+.breadcrumb {
+    background: rgba(255,227,227,0.75);
+    font-family: "Caveat";
+    border-radius: 80px !important;
+}
+.breadcrumb .active {
+    color: rgb(196,112,122);
+    font-family: "Caveat";
+    border: none !important;
+}
+
+
+.alert {color:rgba(182,213,223,0.86)
+    background: rgba(0,0,0,0.19);
+    font-family: "Caveat";
+    color: rgb(79,77,149) !important;
+    border: none !important;
+}
+.alert-warning,
+.alert-danger {
+    background: rgba(182,213,223,0.88);
+    font-family: "Caveat";
+    border: none;
+}
+
+
+.feature,
+div.left {
+    background: rgba(255,225,225,0.52);
+    font-family: "Caveat" !important;
+    border: dotted ;
+    !important;
+}
+
+
+.panel {
+    background: rgba(166,226,236,0.34) !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: rgba(5,1,1,0.82) !important;
+}
+.progress {
+    background: rgba(255,255,255,0.3);
+}
+.progress-div {
+    color: rgba(211,162,162,0.95) !important;
+}
+.progress-bar {
+    background: rgba(219,222,249,0.88);
+}
+
+
+h1 {
+    color: rgba(255,255,255,0.94);
+    font-size: 48px;
+    font-family: "Caveat";
+    text-align: center;
+}
+h3 {
+    color: rgba(255,255,255,0.94) !important;
+    font-size: 24px !important;
+    font-family: "Caveat";
+    text-align: center !important;
+}
+
+
+
+
+
+
+.cave-grid,
+.mound-grid {
+    background: rgba(214,222,255,0.5);
+    border: none !important;
+    border-radius: 80px !important;
+}
+
+
+.table {
+    background: rgba(97,136,70,0) !important;
+    font-family: "Caveat";
+    border: none;
+}
+.top,
+.bottom,
+th,
+.table .left {
+    background: rgba(97,136,70,0) !important;
+}
+.inner-table .left {
+    background: rgba(255,255,255,0.5) !important;
+    color: rgb(166,98,98);
+   position: relative;
+     top: 400px;
+    right:550px;
+    padding-left: 100px;
+   
+    
+} 
+
+
+
+
+    
+
+
+.inner-table .right  {
+    background: rgba(255,255,255,0.3) !important;
+    color: rgb(166,98,98);
+   padding-top: 1px;
+     top: 400px;
+    right:550px;
+    padding-left: 100px;
+    
+}
+
+
+
+
+
+
+.right_odd {
+    background: rgba(247,247,247,0) !important;
+}
+.right_cub {
+    background: rgba(97,136,70,0.5) !important;
+}
+a:link,
+a:visited {
+    color: rgb(129,172,183) !important;
+    font-family:"Caveat" !important;
+}
+a:hover {
+    color: rgb(12,101,113) !important;
+    font-family: "Caveat" !important;
+}
+
+
+input,
+select,
+textarea {
+    background:rgba(192,214,224,0.94) !important;
+    border: none !important;
+    box-shargb(255,255,255)!important;
+    color: rgb(58,101,102) !important;
+    text-shadow: none !important;
+    font-family: "Caveat";
+}
+
+
+input[type=button] {
+    background: rgb(255,255,255) !important;
+    border: none !important;
+}
+input[type=button]:hover,
+input[type=submit]:hover {
+    background: rgb(215,182,182) !important;
+    font-family: "Caveat";
+}
+div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
+   filter: grayscale(90%); 
+
+
+       filter: grayscale(30%) hue-rotate(-.2turn);
+
+
+      
+       
+   
+}
+
+
+.xlarge:nth-of-type(1) {
+    margin-right: 400px !important;
+    color: rgb(151,103,103);
+}
+
+
+.table .bottom a:link {
+    padding-right: 390px !important;
+}
+
+
+#player .left {
+    left: 20px;
+        top: -5px;
+}
+
+
+#player .auto .right {
+left: 20px;
+        top: -5px;
+}
+
+
+div#lion_image {
+    border-radius:20% !important;
+    border: dashed;
+    overflow: hidden;
+    content: url('https://i.ibb.co/qFk4cQT4/lion-246202.png');
+    margin-top:-15px;
+    /* May need adjusting */
+    margin-left: 200px;
+    height: 400px;
+    margin-bottom: 360px;
+   
+    
+}
+
+
+div.cave-grid>img 
+/* Pregnant Lionesses */
+{
+    content: url('https://vignette.wikia.nocookie.net/castaways-equanimity-aesthetic/images/5/50/Pastel_pink_bow.gif/revision/latest?cb=20170106161209') !important;
+    border-radius: 50px;
+    height: 150px !important;
+}
+
+
+a[href$="381245"]>div.cave-grid>img {
+    content: url('https://vignette.wikia.nocookie.net/castaways-equanimity-aesthetic/images/5/50/Pastel_pink_bow.gif/revision/latest?cb=20170106161209') !important;
+}
+
+
+a[href$="325460"]>div.cave-grid>img {
+    content: url('https://vignette.wikia.nocookie.net/castaways-equanimity-aesthetic/images/5/50/Pastel_pink_bow.gif/revision/latest?cb=20170106161209') !important;
+}
+
+
+a[href$="210125"]>div.cave-grid>img {
+    content: url('https://vignette.wikia.nocookie.net/castaways-equanimity-aesthetic/images/5/50/Pastel_pink_bow.gif/revision/latest?cb=20170106161209') !important;
+}
+
+
+a[href$="lionoverview.php?id=269782"]>div.cave-grid>img 
+/* Pride Overview */
+{
+    content: url('https://vignette.wikia.nocookie.net/castaways-equanimity-aesthetic/images/5/50/Pastel_pink_bow.gif/revision/latest?cb=20170106161209') !important;
+}
+
+
+a[href$="unsorted.php?id=269782"]>div.cave-grid>img 
+/* Unsorted */
+{
+    content: url('https://vignette.wikia.nocookie.net/castaways-equanimity-aesthetic/images/5/50/Pastel_pink_bow.gif/revision/latest?cb=20170106161209') !important;
+}
+
+
+.mound-grid img 
+/* Mound(s) */
+{
+    content: url('https://vignette.wikia.nocookie.net/castaways-equanimity-aesthetic/images/5/50/Pastel_pink_bow.gif/revision/latest?cb=20170106161209') !important;
+    height: 100px;
+    width: 150px;
+}
+.s-chat-message:nth-child(even) {
+    background: rgb(214,216,241) !important;
+    color: #4c5386 !important;
+    border: none;
+}
+.s-chat-message:nth-child(odd) {
+    background: rgb(214,216,241) !important;
+    color: #4c5386 !important;
+    border: none !important;
+}
+
+
+.s-chat-message__pinned {
+    background: rgb(214,216,241) !important;
+    color: rgb(55,89,115) !important;
+    border: none !important;
+}
+
+
+.s-chat-message_content .s-chat__username {
+     color: rgb(30,59,81) !important;
+}
+
+
+.s-chat-message.hasContext {
+     color: rgb(30,59,81) !important;
+}
+
+
+
+
+
+
+/* Timestamps */
+.s-chat-message_timestamp {
+    color: #525777 !important;
+}
+
+
+#chatMessageContainer {
+    border: none !important;
+}
+/* Channel Button */
+button#label_currentChannel {
+    background: rgb(133,155,187) !important;
+    color: rgb(52,60,117) !important;
+    border: none !important;
+    **;
+}
+
+
+.breadcrumb::after {
+        content: "CSS By LemonSeltzer (#ffffff)";
+        color: #b98c8c;
+        position: absolute;
+        right: 13%; /* (This may need adjusting) */
+        z-index: 100
+    }
+
+
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%
+        }
+    }
+
+
+div.box1
+{
+  text-align:center;width:600px;height:15px;overflow:auto;
+  transition:height 2s;
+}
+
+
+.box1:hover
+{
+  text-align:center;width:600px;height:250px;overflow:auto;
+  transition:height 2s;
+}
+
+
+div.box2
+{
+   text-align:center;width:200px;height:15px;overflow:auto;
+  transition:height 2s;
+}
+
+
+.box2:hover
+{
+   text-align:center;width:200px;height:250px;overflow:auto;
+  transition:height 2s;
+  
+}
