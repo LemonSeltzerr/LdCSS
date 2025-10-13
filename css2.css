@@ -12,7 +12,7 @@
 
 
 body {
-    background: url('https://wallpaperaccess.com/full/7946146.jpg') no-repeat center center fixed;
+    background: url('https://i.ibb.co/0Vtq647L/Option2.webp') no-repeat center center fixed;
     background-size: cover;
     font-family: "Caveat", serif !important;
     color: rgba(81,23,196,0.54) !important;
@@ -446,4 +446,5 @@ div.box2
    text-align:center;width:200px;height:250px;overflow:auto;
   transition:height 2s;
   
+
 }
