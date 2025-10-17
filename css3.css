@@ -1,0 +1,406 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+
+
+
+.suse-mono-<uniquifier> {
+  font-family: "SUSE Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+body {
+    background: url('https://images-prod.anothermag.com/1050/azure/another-prod/350/5/355213.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: "SUSE Mono", serif !important;
+    color: rgba(66,126,73,0.85) !important;
+    border: none;
+    
+}
+ 
+
+
+
+
+
+
+.topbar {
+    background: rgba(43,77,47,0.85);
+    font-family: "SUSE Mono";
+    color: rgb(13,34,7);
+    !important;
+}
+.navbar {
+    background: rgba(43,77,47,0.85);
+    font-family: "SUSE Mono";
+    color: rgba(13,34,7,0.7) !important;
+    border: none;
+    box-shadow: none;
+    border-radius: 0px !important;
+}
+.navbar li a {
+    color: rgba(116,240,112,0.46) !important;
+    font-family: "SUSE Mono";
+    color: white;
+    border: none;
+    box-shadow: none;
+    border-radius: 80px !important;
+}
+.navbar li a:hover {
+    background: rgba(98,136,85,0.7) !important;
+    font-family: "SUSE Mono";
+    border: none;
+    box-shadow: none;
+    border-radius: 80px !important;
+    color: white;
+    !important;
+}
+
+
+
+
+.container.main {
+    background: rgba(56,33,6,0.42);
+    font-family: "SUSE Mono";
+    !important border: dashed;
+    color: rgba(102,63,28,0.7) !important;
+    box-shadow: none;
+    border-radius: 0px;
+}
+.col-md-9 {
+    background: rgba(79,45,11,0.3);
+    font-family: "SUSE Mono";
+    border: none !important;
+    color: rgba(90,217,96,0.7);
+    box-shadow: none;
+    border-radius: 0px;
+}
+/* Start https://www.cursors-4u.com */
+* {
+    cursor: url(https://cur.cursors-4u.net/nature/nat-8/nat787.cur), auto !important;
+}
+/* End https://www.cursors-4u.com */
+
+
+
+
+.breadcrumb {
+    background: rgba(43,77,47,0.85);
+    font-family: "SUSE Mono";
+}
+.breadcrumb .active {
+    color: rgb(2,13,2);
+    font-family: "SUSE Mono";
+    border: none !important;
+}
+
+
+
+
+.alert {
+    background: rgba(43,77,47,0.85);
+    font-family: "SUSE Mono";
+    color: rgb(2,13,2) !important;
+    border: none !important;
+}
+.alert-warning,
+.alert-danger {
+    background: rgba(43,77,47,0.85);
+    font-family: "SUSE Mono";
+    border: none;
+}
+
+
+
+
+.feature,
+div.left {
+    background: rgba(79,45,11,0.3);
+    font-family: "SUSE Mono" !important;
+    border: none !important;
+    !important;
+}
+
+
+
+
+.panel {
+    background: rgba(79,45,11,0.3) !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: rgba(69,166,70,0.82) !important;
+}
+.progress {
+    background: rgba(36,81,20,0.3);
+}
+.progress-div {
+    color: rgba(36,115,23,0.95) !important;
+}
+.progress-bar {
+    background: rgba(29,109,16,0.88);
+}
+
+
+
+
+h1 {
+    color: rgba(179,87,29,0.94);
+    font-size: 48px;
+    font-family: "SUSE Mono";
+}
+h3 {
+    color: rgba(172,217,154,0.94) !important;
+    font-size: 24px !important;
+    font-family: "SUSE Mono";
+}
+
+
+
+
+.cave-grid,
+.mound-grid {
+    background: rgba(1,1,1,0);
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+
+
+
+.table {
+    background: rgba(97,136,70,0) !important;
+    font-family: "SUSE Mono";
+    border: none;
+}
+.top,
+.bottom,
+th,
+.table .left {
+    background: rgba(97,136,70,0) !important;
+}
+.inner-table .left {
+    background: rgba(98,25,25,0.5) !important;
+    color: black;
+}
+.inner-table .right {
+    background: rgba(0,0,0,0) !important;
+    color: rgb(236,163,163);
+}
+.right_odd {
+    background: rgba(247,247,247,0) !important;
+}
+.right_cub {
+    background: rgba(97,136,70,0.5) !important;
+}
+a:link,
+a:visited {
+    color: rgb(255,255,255) !important;
+    font-fargb(71,8,8) "SUSE Mono" !important;
+}
+a:hover {
+    color: rgb(173,153,118) !important;
+    font-family: "SUSE Mono" !important;
+}
+
+
+
+
+input,
+select,
+textarea {
+    background:rgba(85,117,34,0.66);
+    border: none !important;
+    box-shadow: none !important;
+    color: rgb(0,0,0) !important;
+    text-shadow: none !important;
+    font-family: "SUSE Mono";
+}
+
+
+
+
+input[type=button] {
+    background: rgb(255,255,255) !important;
+    border: none !important;
+}
+input[type=button]:hover,
+input[type=submit]:hover {
+    background: rgb(160,207,147) !important;
+    font-family: "SUSE Mono";
+}
+div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
+    content: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/147fcdc9-8cee-4d3e-9ba7-51f9c4888b30/dch70lg-002c55a4-a176-4a95-9f72-3cdd3082d81e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi8xNDdmY2RjOS04Y2VlLTRkM2UtOWJhNy01MWY5YzQ4ODhiMzAvZGNoNzBsZy0wMDJjNTVhNC1hMTc2LTRhOTUtOWY3Mi0zY2RkMzA4MmQ4MWUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.0vuqz7ZKD4kANSxQhvPXZc5kWH42JFcCKzOiP4Dfc0k');
+    width: 250px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 25px;
+    color: black !important;
+}
+
+
+
+
+div#lion_image {
+    border-radius: 20% !important;
+    border: none;
+    overflow: hidden;
+    margin-top: 15px;
+    /* May need adjusting */
+    margin-left: 12px;
+}
+
+
+
+
+div.cave-grid>img 
+/* Pregnant Lionesses */
+{
+    content: url('https://i.ibb.co/nMtcghCV/green-metropolis-the-reclamation-of-the-urban-lan-by-odysseyorigins-dfxzl9z-375w-2x.jpg') !important;
+    border-radius: 50px;
+    height: 200px;
+    border: solid;
+}
+
+
+
+
+a[href$="381245"]>div.cave-grid>img {
+    content: url('https://i.ibb.co/nMtcghCV/green-metropolis-the-reclamation-of-the-urban-lan-by-odysseyorigins-dfxzl9z-375w-2x.jpg') !important;
+}
+
+
+
+
+a[href$="325460"]>div.cave-grid>img {
+    content: url('https://i.ibb.co/nMtcghCV/green-metropolis-the-reclamation-of-the-urban-lan-by-odysseyorigins-dfxzl9z-375w-2x.jpg') !important;
+}
+
+
+
+
+a[href$="210125"]>div.cave-grid>img {
+    content: url('https://i.ibb.co/nMtcghCV/green-metropolis-the-reclamation-of-the-urban-lan-by-odysseyorigins-dfxzl9z-375w-2x.jpg') !important;
+}
+
+
+
+
+a[href$="lionoverview.php?id=269782"]>div.cave-grid>img 
+/* Pride Overview */
+{
+    content: url('https://i.ibb.co/nMtcghCV/green-metropolis-the-reclamation-of-the-urban-lan-by-odysseyorigins-dfxzl9z-375w-2x.jpg') !important;
+}
+
+
+
+
+a[href$="unsorted.php?id=269782"]>div.cave-grid>img 
+/* Unsorted */
+{
+    content: url('https://i.ibb.co/nMtcghCV/green-metropolis-the-reclamation-of-the-urban-lan-by-odysseyorigins-dfxzl9z-375w-2x.jpg') !important;
+}
+
+
+
+
+.mound-grid img 
+/* Mound(s) */
+{
+    background: url("https://i.ibb.co/nMtcghCV/green-metropolis-the-reclamation-of-the-urban-lan-by-odysseyorigins-dfxzl9z-375w-2x.jpg");
+    width: 10px;
+    padding-top: 100px;
+    padding-right: -137px;
+    padding-left: 150px;
+    border-radius: 50px;
+    border: solid;
+}
+.s-chat-message:nth-child(even) {
+    background: rgb(198,255,174) !important;
+    color: #000000 !important;
+    border: none;
+}
+.s-chat-message:nth-child(odd) {
+    background: rgb(158,207,142) !important;
+    color: rgb(0,0,0) !important;
+    border: none !important;
+}
+
+
+rgb(68,154,68)
+.s-chat-message__pinned {
+    background: rgb(154,219,136) !important;
+    color: rgba(0,0,0, 1) !important;
+    border: none !important;
+}
+/* Timestamps */
+.s-chat-message_timestamp {
+    color: #42201c !important;
+}
+
+
+
+
+#chatMessageContainer {
+    border: none !important;
+}
+/* Channel Buttorgb(166,116,82)
+button#label_currentChannel {
+    background: rgb(192,170,126) !important;
+    color: rgba(0,0,0, 1) !important;
+    border: dashed !important;
+    **;
+}
+
+
+
+
+.breadcrumb::after {
+        content: "CSS By LemonSeltzer (#269782)";
+        color: #0b0606;
+        position: absolute;
+        right: 13%; /* (This may need adjusting) */
+        z-index: 100
+    }
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+
+
+
+
+
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+
+
+
+
+
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%
+        }
+    }
