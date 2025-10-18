@@ -365,11 +365,11 @@ button#label_currentChannel {
 
 
 .breadcrumb::after {
-        content: "CSS By LemonSeltzer (#269782)";
-        color: #0b0606;
+        content: "CSS by LemonSeltzer #269782";
+        color: #000000;
         position: absolute;
-        right: 13%; /* (This may need adjusting) */
-        z-index: 100
+        right: 13%; 
+        z-index: 100;
     }
 
 
@@ -411,3 +411,4 @@ button#label_currentChannel {
         }
 
     }
+
