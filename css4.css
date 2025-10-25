@@ -1,0 +1,568 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+
+
+
+
+
+
+
+.merienda-<uniquifier> {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+body {
+    background: #DBCFE1;
+    background-size: cover;
+    font-family: "Merienda" !important;
+    color: #AD99CF !important;
+    border: none;
+    
+}
+ 
+.topbar {
+    background: #AD99CF;
+    font-family: "Merienda";
+    color: #81559B;
+    !important;
+}
+.navbar {
+    background: #AD99CF;
+    font-family: "Merienda";
+    color: #81559B !important;
+    border: none;
+    box-shadow: none;
+    border-radius: 0px !important;
+}
+.navbar li a {
+    color: #81559B !important;
+    font-family: "Merienda";
+    color: white;
+    border: none;
+    box-shadow: none;
+   
+}
+.navbar li a:hover {
+    background: rgba(255,255,255,0.58) !important;
+    font-family: "Merienda";
+    border: none;
+    box-shadow: none;
+    color: white;
+    !important;
+}
+
+
+
+
+
+
+
+
+.container.main {
+    background: #cdaff7;
+    font-family: "Merienda ;
+    color: rgba(0,24,255,0.7) !important;
+    box-shadow: none;
+    border-radius: 0px;
+}
+.col-md-9 {
+    background: rgba(79,45,12,0);
+    font-family: "Merienda";
+    border: none !important;
+    color: #2E183E;
+    box-shadow: none;
+    border-radius: 0px;
+}
+/* Start https://www.cursors-4u.com */
+* {
+    cursor: url(https://cur.cursors-4u.net/nature/nat-8/nat787.cur), auto !important;
+}
+/* End https://www.cursors-4u.com */
+
+
+
+
+
+
+
+
+.breadcrumb {
+    background: rgba(255,255,255,0.25);
+    font-family: "Merienda";
+}
+.breadcrumb .active {
+    color: rgb(2,13,2);
+    font-family: "Merienda";
+    border: none !important;
+}
+
+
+
+
+
+
+
+
+.alert {
+    background: #9F7FBD;
+    font-family: "Merienda";
+    color: rgb(255,255,255) !important;
+    border: none !important;
+}
+.alert-warning,
+.alert-danger {
+    background: #9F7FBD;
+    font-family: "Merienda";
+    border: none;
+}
+
+
+
+
+
+
+
+
+.feature,
+div.left {
+    background: rgba(255,255,255,0.3);
+    font-family: "Merienda" !important;
+    border: none !important;
+    !important;
+}
+
+
+
+
+
+
+
+
+.panel {
+    background: rgba(255,255,255,0.35) !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #2E183E !important;
+}
+.progress {
+    background: #AD99CF;
+}
+.progress-div {
+    color: #81559B !important;
+}
+.progress-bar {
+    background: #81559B;
+}
+
+
+
+
+
+
+
+
+h1 {
+    color: #2E183E;
+    font-size: 48px;
+    font-family: "Merienda";
+    text-align: center;
+    border: outset , #FFFFFF;
+    border-radius: 40px;
+    border-width: 6px;
+    
+}
+
+
+
+
+h3 {
+    color: #2E183E !important;
+    font-size: 24px !important;
+    font-family: "Merienda";
+}
+
+
+div.xlarge.b {
+    border: outset;
+    border-radius: 70px;
+    border-width: 5px
+}
+
+
+form {
+    border: outset;
+    border-radius: 20px;
+    border-width: 5px;
+}
+
+
+div.floatright {
+    border: none !important;
+}
+
+
+
+
+.cave-grid,
+.mound-grid {
+    background: rgba(1,1,1,0);
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+
+
+
+
+
+
+
+.table {
+    background: rgba(97,136,70,0) !important;
+    font-family: "Merienda";
+    border: none;
+}
+
+
+th {
+    text-align: center;
+    font-style: italic;
+}
+
+
+.top,
+.bottom,
+th,
+.table .left {
+    background: rgba(97,136,70,0) !important;
+    color: rgb(255,255,255) !important;
+}
+.inner-table .left {
+    background: #d2c1f3 !important;
+    color: black;
+    color: rgb(255,255,255) !important;
+}
+.inner-table .right {
+    background: rgba(0,0,0,0) !important;
+    color: rgb(255,255,255);
+}
+
+
+
+
+
+
+.right_odd {
+    background: rgba(247,247,247,0.41) !important;
+    border-radius: 50px;
+    text-align: center
+}
+.right_cub {
+    background: rgba(255,255,255,0.5) !important;
+}
+a:link,rgba(69,35,117,0.66)
+a:visited {
+    color: #7e5fa4 !important;
+    font-family: "Merienda" !important;
+}
+a:hover {
+    color: rgb(114,53,126) !important;
+    font-family: "Merienda" !important;
+}
+
+
+
+
+
+
+
+
+input,
+select,
+textarea {
+    background:rgba(211,190,221,0.66);
+    border: none !important;
+    box-shadow: none !important;
+    color: rgb(0,0,0) !important;
+    text-shadow: none !important;
+    font-family: "Merienda";
+}
+
+
+input#postComment {
+    background: #FFFFFF
+}
+
+
+input#btnChatSend {
+    background: #FFFFFF
+}
+
+
+input[type="submit"] {
+    background: #ffffff
+}
+
+
+input[type=button] {
+    background: rgb(255,255,255) !important;
+    border: none !important;
+}
+input[type=button]:hover,
+input[type=submit]:hover {
+    background: rgb(160,207,147) !important;
+    font-family: "Merienda";
+}
+div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
+    content: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/147fcdc9-8cee-4d3e-9ba7-51f9c4888b30/dch70lg-002c55a4-a176-4a95-9f72-3cdd3082d81e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi8xNDdmY2RjOS04Y2VlLTRkM2UtOWJhNy01MWY5YzQ4ODhiMzAvZGNoNzBsZy0wMDJjNTVhNC1hMTc2LTRhOTUtOWY3Mi0zY2RkMzA4MmQ4MWUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.0vuqz7ZKD4kANSxQhvPXZc5kWH42JFcCKzOiP4Dfc0k');
+    width: 250px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 25px;
+    color: black !important;
+}
+
+
+
+
+
+
+
+
+div#lion_image {
+    border-radius: 20% !important;
+    border: none;
+    overflow: hidden;
+    margin-top: 15px;
+    /* May need adjusting */
+    margin-left: 12px;
+}
+
+
+
+
+
+
+
+
+div.cave-grid>img 
+/* Pregnant Lionesses */
+{
+    content: url('https://wallpaperaccess.com/full/1152092.jpg') !important;
+    border-radius: 50px;
+    height: 200px;
+    width: 250px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+a[href$="381245"]>div.cave-grid>img {
+    content: url('https://wallpaperaccess.com/full/1152092.jpg') !important;
+}
+
+
+
+
+
+
+
+
+a[href$="325460"]>div.cave-grid>img {
+    content: url('https://wallpaperaccess.com/full/1152092.jpg') !important;
+}
+
+
+
+
+
+
+
+
+a[href$="210125"]>div.cave-grid>img {
+    content: url('https://wallpaperaccess.com/full/1152092.jpg') !important;
+}
+
+
+
+
+
+
+
+
+a[href$="lionoverview.php?id=269782"]>div.cave-grid>img 
+/* Pride Overview */
+{
+    content: url('https://wallpaperaccess.com/full/1152092.jpg') !important;
+}
+
+
+
+
+
+
+
+
+a[href$="unsorted.php?id=269782"]>div.cave-grid>img 
+/* Unsorted */
+{
+    content: url('https://wallpaperaccess.com/full/1152092.jpg') !important;
+}
+
+
+
+
+
+
+
+
+.mound-grid img 
+/* Mound(s) */
+{
+    content: url("https://wallpaperaccess.com/full/1152092.jpg");
+    position: relative;
+    width: 150px;
+    padding-top: -0px;
+    bottom: -0px;
+    border-radius: 40px
+     
+}
+.s-chat-message:nth-child(even) {
+    background: rgb(224,206,241) !important;
+    color: #2E183E !important;
+    border: none;
+}
+.s-chat-message:nth-child(odd) {
+    background: rgb(255,255,255) !important;
+    color: #2E183E !important;
+    border: none !important;
+}
+
+
+
+
+
+
+.s-chat-message__pinned {
+    background: rgb(214,184,230) !important;
+    color: #2E183E  !important;
+    border: none !important;
+}
+/* Timestamps */
+.s-chat-message_timestamp {
+    color: #2E183E !important;
+}
+
+
+
+
+
+
+
+
+#chatMessageContainer {
+    border: none !important;
+}
+
+
+button#label_currentChannel {
+    background: rgb(223,197,234) !important;
+    color: rgb(255,255,255) !important;
+    border: dashed !important;
+    **;
+}
+
+
+
+
+
+
+
+
+.breadcrumb::after {
+        content: "CSS by LemonSeltzer #269782";
+        color: #000000;
+        position: absolute;
+        right: 13%; 
+        z-index: 100;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%
+        }
+
+
+    }
