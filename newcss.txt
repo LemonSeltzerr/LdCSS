@@ -1,0 +1,608 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Nosifer&display=swap');
+
+
+
+
+.im-fell-english-regular-italic {
+  font-family: "IM Fell English", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.nosifer-regular {
+  font-family: "Nosifer", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+body {
+    background: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_632/67fe04120835137.60b96245e5df5.gif');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;    
+    font-family: "IM Fell English" !important;
+    color: #000000 !important;
+    border: none;
+    
+}
+ 
+.topbar {
+    background: rgba(12,12,12,.7);
+    font-family: "IM Fell English";
+    color: #ffffff;
+    !important;
+}
+.navbar {
+    background: rgba(96,24,6,.7);
+    font-family: "Nosifer";
+    color: rgba(102,12,102,1) !important;
+    border: none;
+    padding-left: 46px;
+    margin-top: -0px;
+    box-shadow: none;
+    border-radius: 90px !important;
+}
+.navbar li a {
+    color: rgba(176, 112, 47,0.7) !important;
+    font-family: "Nosifer";
+    color: rgb(12,12,12);
+    border: none;
+    box-shadow: none;
+    padding-left: 6px;
+    margin-top: -0px;
+   border-radius: 90px !important;
+}
+.navbar li a:hover {
+    background: rgba(255,255,255,0) !important;
+    font-family: "Nosifer" !important;
+    border: outset;
+    border-color: rgb(12, 12, 12);
+    box-shadow: none;
+    !important;
+    padding-left: 6px;
+}
+
+
+div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
+    content: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3bf653d9-9fe3-4a13-a35e-6b3fcac4229b/dm0ebx8-77672329-71ac-4bb5-bcab-cc7b00e4d15b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi8zYmY2NTNkOS05ZmUzLTRhMTMtYTM1ZS02YjNmY2FjNDIyOWIvZG0wZWJ4OC03NzY3MjMyOS03MWFjLTRiYjUtYmNhYi1jYzdiMDBlNGQxNWIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.M7QmIQo9SuNWVnLaFlE9fdFZ2lVBcBqr6KPboXJpU7o');
+    width: 150px !important;
+    margin-left: -60px;
+   transform: translate(30px, -40px);
+}
+
+
+
+
+
+
+.container.main {
+    background: rgba(12,12,12,.7);
+    font-family: "IM Fell English ;
+    color: rgba(0,24,255,0.7) !important;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.col-md-9 {
+    background: rgba(79,45,12,0);
+    font-family: "IM Fell English";
+    border: none !important;
+    color: rgb(134, 38, 6);
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+
+/* Fire - https://www.cursors-4u.com/cursor/cur3-11 */
+* {
+  cursor: url('https://cdn.cursors-4u.net/css-previews/fire-6caffd13-css.webp') 8 4, auto !important;
+}
+/* End www.Cursors-4U.com Code */
+
+
+
+
+
+
+
+
+.breadcrumb {
+    background: rgba(134, 38, 6,.5);
+    border-radius: 90px; 
+    font-family: "IM fell english";
+}
+.breadcrumb .active {
+    color: rgb(182,182,182);
+    font-family: "IM fell english";
+    border: none !important;
+}
+
+
+
+
+
+
+
+
+.alert {
+    background: rgba(255, 200, 87, .5);
+    font-family: "Nosifer" !important;
+    color: rgb(92,59,25) !important;
+    border: none !important;
+}
+
+.alert a {
+    color: rgb(92,59,25) !important;
+    font-family: "Nosifer" !important;
+}
+.alert a:hover {
+    color: rgb(85,17,17) !important;
+    font-family: "Nosifer" !important;
+}
+
+.alert-warning, 
+.alert-danger,  {
+    background: rgba(255, 200, 87, .5);
+    color: rgb(85,17,17)
+    border: none;
+    font-family: "nosifer";
+}
+
+
+.feature,
+div.left {
+    background: rgba(2255, 200, 87, .5) !important;
+    font-family: "IM Fell English" !important;
+    border: none !important;
+}
+
+
+
+
+
+
+
+
+.panel {
+    background: rgba(134, 38, 6,0.35) !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #2E183E !important;
+}
+.progress {
+    background: #cfb836;
+}
+.progress-div {
+    color: #5c421e !important;
+}
+.progress-bar {
+    background: #7e4a0c;
+}
+
+
+
+
+
+
+
+
+h1 {
+    color: #f17e35;
+    font-size: 48px;
+    font-family: "Nosifer" !important;
+    text-align: center;
+    border: none , #FFFFFF;
+    border-radius: 40px;
+    border-width: 6px;
+    
+}
+
+
+
+
+h3 {
+    color: #f17e35 !important;
+    font-size: 24px !important;
+    font-family: "IM fell english";
+}
+
+
+div.xlarge.b {
+    background: rgba(255, 200, 87, .5);
+    font-family: "Nosifer";
+    font-style: italic;
+    color: rgb(92,59,25) !important;
+    border-radius: 70px;
+    border-width: 5px
+}
+div.xlarge.b a {
+    font-family: "Nosifer" !important;
+    color: rgb(92,59,25) !important; }
+
+form {
+    border: none;
+    border-radius: 20px;
+    border-width: 5px;
+    font-family: "IM fell english";
+}
+
+
+div.floatright {
+    border: none !important;
+}
+
+
+
+
+.cave-grid,
+.mound-grid {
+    background: rgba(1,1,1,0);
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+
+
+
+
+
+
+
+.table {
+    background: rgba(97,136,70,0) !important;
+    font-family: "IM fell english";
+    border: none;
+}
+
+.h3 {
+    font-family: "nosifer";
+    color: rgb(255, 200, 87);
+    font-size: 20px;
+    font-style: italic;
+}
+
+th {
+    color: rgb(255, 200, 87);
+    text-align: center;
+    font-style: italic;
+}
+
+
+.top {
+    background: rgba(0,0,0,0) !important;
+}
+
+.bottom,
+th,
+.table .left {
+    background: rgba(96,24,7,0.55) !important;
+    color: rgb(255, 200, 87);
+}
+.inner-table .left {
+    background: rgba(176, 112, 47,.5) !important;
+    border-bottom-left-radius: 45px;
+     border-top-left-radius: 45px;
+    color: rgb(255, 200, 87) !important;
+}
+.inner-table .right {
+     background: rgba(176, 112, 47,.5) !important;
+    border-bottom-right-radius: 45px;
+     border-top-right-radius: 45px;
+    color: rgb(255,255,255);
+}
+
+
+
+
+
+
+.right_odd {
+    background: rgba(247,247,247,0) !important;
+    border-radius: 50px;
+    text-align: center
+}
+.right_cub {
+    background: rgba(255,255,255,0.5) !important;
+}
+a:link,
+a:visited {
+    color: rgb(245, 107, 61) ;
+    font-family: "IM fell english" ;
+}
+a:hover {
+    color: rgb(145,59,31) !important;
+    font-family: "im fell english" !important;
+}
+
+
+
+
+
+
+
+
+input,
+select,
+textarea {
+    background:rgba(245, 107, 61,0.66);
+    border-radius: 45px !important;
+    border: none;
+    box-shadow: none !important;
+    color: rgb(0,0,0) !important;
+    text-shadow: none !important;
+    font-family: "IM Fell english";
+}
+
+
+input#postComment {
+    background: #7a4d05;
+    border: none;
+    color: rgb(255, 200, 87);
+}
+
+
+input#btnChatSend {
+    background: #FFFFFF;
+}
+
+
+
+input[type="submit"] {
+    background: #ffffff;
+    color: rgb(255, 200, 87);
+}
+
+
+input[type=button] {
+    background: rgb(255,255,255) !important;
+    border: none !important;
+}
+input[type=button]:hover,
+input[type=submit]:hover {
+    background: rgb(255, 200, 87) !important;
+    font-family: "IM fell english";
+}
+
+
+
+
+
+
+
+
+
+div#lion_image {
+    border-radius: 30% !important;
+    border: none;
+    overflow: hidden;
+    margin-top: 15px;
+    /* May need adjusting */
+    margin-left: 12px;
+}
+
+
+
+
+
+
+
+
+div.cave-grid>img 
+/* Pregnant Lionesses */
+{
+    content: url('https://i.pinimg.com/originals/2c/f3/ef/2cf3eff413a99a414f215d12a38a15ff.gif') !important;
+    border-radius: 50px;
+    height: 200px;
+    width: 250px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+a[href$="381245"]>div.cave-grid>img {
+    content: url('https://i.pinimg.com/originals/2c/f3/ef/2cf3eff413a99a414f215d12a38a15ff.gif') !important;
+}
+
+
+
+
+
+
+
+
+a[href$="325460"]>div.cave-grid>img {
+    content: url('https://i.pinimg.com/originals/2c/f3/ef/2cf3eff413a99a414f215d12a38a15ff.gif') !important;
+}
+
+
+
+
+
+
+
+
+a[href$="210125"]>div.cave-grid>img {
+    content: url('https://i.pinimg.com/originals/2c/f3/ef/2cf3eff413a99a414f215d12a38a15ff.gif') !important;
+}
+
+
+
+
+
+
+
+
+a[href$="lionoverview.php?id=269782"]>div.cave-grid>img 
+/* Pride Overview */
+{
+    content: url('https://i.pinimg.com/originals/2c/f3/ef/2cf3eff413a99a414f215d12a38a15ff.gif') !important;
+}
+
+
+
+
+
+
+
+
+a[href$="unsorted.php?id=269782"]>div.cave-grid>img 
+/* Unsorted */
+{
+    content: url('https://i.pinimg.com/originals/2c/f3/ef/2cf3eff413a99a414f215d12a38a15ff.gif') !important;
+}
+
+
+
+
+
+
+
+
+.mound-grid img 
+/* Mound(s) */
+{
+    content: url("https://i.pinimg.com/originals/2c/f3/ef/2cf3eff413a99a414f215d12a38a15ff.gif");
+    position: relative;
+    width: 150px;
+    padding-top: -0px;
+    bottom: -0px;
+    border-radius: 40px
+     
+}
+.s-chat-message:nth-child(even) {
+    background: rgb(214,221,32) !important;
+    color: #000000 !important;
+    border: none;
+}
+.s-chat-message:nth-child(odd) {
+    background: rgb(181,132,40) !important;
+    color: #000000 !important;
+    border: none !important;
+}
+
+
+
+
+
+
+.s-chat-message__pinned {
+    background: rgb(190,62,57) !important;
+    color: #000000  !important;
+    border: none !important;
+}
+/* Timestamps */
+.s-chat-message_timestamp {
+    color: #000000 !important;
+}
+
+
+
+
+
+
+
+
+#chatMessageContainer {
+    border: none !important;
+}
+
+
+button#label_currentChannel {
+    background: rgb(224,189,77) !important;
+    color: rgb(113,100,0) !important;
+    border: dashed !important;
+    **;
+}
+
+
+
+
+
+
+
+
+.breadcrumb::after {
+        content: "CSS by LemonSeltzer #269782";
+        color: #000000;
+        position: absolute;
+        right: 13%; 
+        z-index: 100;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%
+        }
+
+
+    }
