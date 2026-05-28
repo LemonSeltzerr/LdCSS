@@ -36,7 +36,7 @@ body {
 .topbar {
     background: rgba(12,12,12,.7);
     font-family: "IM Fell English";
-    color: #ffffff !important;
+    color: rgb(255,255,255) !important;
     !important;
 }
 .navbar {
