@@ -2,6 +2,7 @@
 
 
 
+
 .im-fell-english-regular-italic {
   font-family: "IM Fell English", serif;
   font-weight: 400;
@@ -36,9 +37,17 @@ body {
 .topbar {
     background: rgba(12,12,12,.7);
     font-family: "IM Fell English";
-    color: rgb(255,255,255) !important;
+    color: #ffffff;
     !important;
 }
+.topbar a:link, .topbar a:visited {
+    color: #FFFFFF !important;
+}
+
+.topbar a:hover {
+    color: #adadad !important;
+}
+
 .navbar {
     background: rgba(96,24,6,.7);
     font-family: "Nosifer";
