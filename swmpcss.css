@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+.instrument-serif-regular {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+    background: url('https://i.pinimg.com/originals/c7/52/ae/c752ae1434635c97cf8b8abddb57a655.gif');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;    
+    font-family: "Instrument Serif" !important;
+    color: #ea00ff !important;
+    border: none;
+    
+}
+ 
+.topbar {
+    background: rgba(250, 245, 229, .75);
+    font-family: "Instrument Serif";
+    color: rgb(64, 69, 63);
+    !important;
+}
+.navbar {
+    background: rgba(250, 245, 229, 1);
+    font-family: "Instrument Serif";
+    color: rgba(64, 69, 63) !important;
+    border: none;
+    border-radius: 0px !important;
+}
+.navbar li a {
+    color: rgba(64, 69, 63, 1) !important;
+    font-family: "Instrument Serif";
+    border: none;
+    box-shadow: none;
+    
+}
+.navbar li a:hover {
+    background: rgb(220,215,199) !important;
+    font-family: "Instrument Serif" !important;
+    !important;
+}
+
+
+div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
+    content: url('https://static.vecteezy.com/system/resources/previews/010/187/410/non_2x/white-flower-watercolor-free-png.png');
+    max-height: 150px !important;
+    transform: translate(10px, -30px) !important;
+}
+
+
+
+
+
+
+.container.main {
+    background: rgba(250, 245, 229, .7);
+    font-family: "Instrument Serif ;
+    color: rgba(0,24,255,0.7) !important;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.col-md-9 {
+    background: rgba(79,45,12,0);
+    font-family: "Instrument Serif";
+    border: none !important;
+    color: rgb(58, 81, 58);
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.breadcrumb {
+    background: rgba(98, 118, 99);
+    border-radius: 0px; 
+    font-family: "Instrument Serif";
+}
+.breadcrumb .active {
+    color: rgb(38,54,38);
+    font-family: "Instrument Serif";
+    border: none !important;
+}
+
+
+
+
+
+
+
+
+.alert {
+    background: rgba(58, 81, 58, .5);
+    font-family: "Instrument Serif" !important;
+    color: rgb(64, 69, 63) !important;
+    border: none !important;
+}
+
+.alert a {
+    color: rgb(64, 69, 63) !important;
+    font-family: "Instrument Serif" !important;
+}
+.alert a:hover {
+    color: rgb(58, 81, 58) !important;
+    font-family: "Instrument Serif" !important;
+}
+
+.alert-warning, 
+.alert-danger,  {
+    background: rgba(64, 69, 63, .5);
+    color: rgb(58, 81, 58)
+    border: none;
+    font-family: "Instrument Serif";
+}
+
+
+.feature,
+div.left {
+    background: rgba(255, 255, 255, .5) !important;
+    font-family: "Instrument Serif" !important;
+    border: none !important;
+}
+
+
+
+
+
+
+
+
+.panel {
+    background: rgba(255, 255, 255,0.3-5) !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: rgb(58, 81, 58) !important;
+}
+.progress {
+    background: rgb(98, 118, 99);
+    color: rgb(255,255,255);
+}
+.progress-div, div.progress {
+    color: rgb(255, 255, 255) !important;
+}
+.progress-bar {
+    background: rgb(154,189,146);
+    color: rgb(255,255,255);
+}
+
+
+
+
+
+
+
+
+h1 {
+    color: rgb(64, 69, 63);
+    font-size: 48px;
+    font-family: "Instrument Serif" !important;
+    text-align: center;
+    border: none , #FFFFFF;
+    border-radius: 40px;
+    border-width: 6px;
+    
+}
+
+
+
+
+h3 {
+    color: rgb(64, 69, 63) !important;
+    font-size: 24px !important;
+    font-family: "Instrument Serif";
+}
+
+
+div.xlarge.b {
+    background: rgba(250, 245, 229,0);
+    font-family: "Instrument Serif";
+    font-style: italic;
+    color: rgb(64, 69, 63) !important;
+    border-radius: 70px;
+    border-width: 5px
+}
+div.xlarge.b a {
+    font-family: "Instrument Serif" !important;
+    color: rgb(64, 69, 63) !important; }
+
+td.bottom {
+    background:rgb(0,0,0,0) !important;
+}
+
+td.bottom a {
+    color: rgb(64, 69, 63) !important;
+}
+
+form {
+    background: rgb(98, 118, 99,.7);
+    border: none;
+    border-radius: 20px;
+    border-width: 5px;
+    font-family: "Instrument Serif";
+}
+
+
+div.floatright {
+    border: none !important;
+}
+
+
+
+
+.cave-grid,
+.mound-grid {
+    background: rgba(250, 245, 229,1);
+    border: none !important;
+    border-radius: 70px !important;
+}
+
+
+
+
+
+
+
+
+.table {
+    background: rgba(97,136,70,0) !important;
+    font-family: "Instrument Serif";
+    border: none;
+}
+
+.h3 {
+    font-family: "Instrument Serif";
+    color: rgb(64, 69, 63);
+    font-size: 20px;
+    font-style: italic;
+}
+
+th {
+    color: rgb(64, 69, 63);
+    text-align: center;
+    font-style: italic;
+}
+
+
+.top {
+    background: rgba(0,0,0,0) !important;
+}
+
+.bottom,
+th,
+.table .left {
+    background: rgb(64, 69, 63, .5) !important;
+    color: rgb(64, 69, 63);
+}
+.inner-table .left {
+    background: rgba(255, 255, 255,.5) !important;
+    border-bottom-left-radius: 45px;
+     border-top-left-radius: 45px;
+    color: rgb(64, 69, 63) !important;
+}
+.inner-table .right {
+     background: rgba(255, 255, 255,.5) !important;
+    border-bottom-right-radius: 45px;
+     border-top-right-radius: 45px;
+    color: rgb(64, 69, 63);
+}
+
+
+.inner-table .right a {
+    color: rgb(64, 69, 63);
+}
+
+
+
+.right_odd {
+    background: rgba(255,255,255,0.5) !important;
+    text-align: center
+}
+.right_cub {
+    background: rgba(255,255,255,0.5) !important;
+}
+a:link,
+a:visited {
+    color: rgb(58, 81, 58) ;
+    font-family: "Instrument Serif" ;
+}
+a:hover {
+    color: rgb(98, 118, 99) !important;
+    font-family: "Instrument Serif" !important;
+}
+
+
+
+
+
+
+
+
+input,
+select,
+textarea {
+    background:rgba(255, 255, 255,0.66);
+    border-radius: 45px !important;
+    border: none;
+    box-shadow: none !important;
+    color: rgb(0,0,0) !important;
+    text-shadow: none !important;
+    font-family: "Instrument Serif";
+}
+
+
+input#postComment {
+    background: rgb(250, 245, 229);
+    border: none;
+    color: rgb(64, 69, 63);
+}
+
+
+input#btnChatSend {
+    background: #FFFFFF;
+}
+
+
+
+input[type="submit"] {
+    background: #ffffff;
+    color: rgb(250, 245, 229);
+}
+
+
+input[type=button] {
+    background: rgb(255,255,255) !important;
+    border: none !important;
+}
+input[type=button]:hover,
+input[type=submit]:hover {
+    background: rgb(250, 245, 229) !important;
+    font-family: "Instrument Serif";
+}
+
+
+
+
+
+
+
+
+
+div#lion_image {
+    border-radius: 30% !important;
+    border: none;
+    overflow: hidden;
+    margin-top: 15px;
+    /* May need adjusting */
+    margin-left: 12px;
+}
+
+
+
+
+
+
+div.cave-grid>img 
+/* Pregnant Lionesses */
+{
+    content: url('https://i.ibb.co/5XmdTbn6/IMG-3988.jpg') !important;
+    border-radius: 50px;
+    height: 200px;
+    width: 250px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+a[href$="381245"]>div.cave-grid>img {
+    content: url('https://i.ibb.co/5XmdTbn6/IMG-3988.jpg') !important;
+}
+
+
+
+
+
+
+
+
+a[href$="325460"]>div.cave-grid>img {
+    content: url('https://i.ibb.co/5XmdTbn6/IMG-3988.jpg') !important;
+}
+
+
+
+
+
+
+
+
+a[href$="210125"]>div.cave-grid>img {
+    content: url('https://i.ibb.co/5XmdTbn6/IMG-3988.jpg') !important;
+}
+
+
+
+
+
+
+
+
+a[href$="lionoverview.php?id=269782"]>div.cave-grid>img 
+/* Pride Overview */
+{
+    content: url('https://i.ibb.co/5XmdTbn6/IMG-3988.jpg') !important;
+}
+
+
+
+
+
+
+
+
+a[href$="unsorted.php?id=269782"]>div.cave-grid>img 
+/* Unsorted */
+{
+    content: url('https://i.ibb.co/5XmdTbn6/IMG-3988.jpg') !important;
+}
+
+
+
+
+
+
+
+
+.mound-grid img 
+/* Mound(s) */
+{
+    content: url("https://i.ibb.co/5XmdTbn6/IMG-3988.jpg");
+    position: relative;
+    width: 150px;
+    padding-top: -0px;
+    bottom: -0px;
+    border-radius: 40px
+     
+}
+.s-chat-message:nth-child(even) {
+    background: rgb(255,255,255) !important;
+    color: #000000 !important;
+    border: none;
+}
+.s-chat-message:nth-child(odd) {
+    background: rgb(250, 245, 229) !important;
+    color: #000000 !important;
+    border: none !important;
+}
+
+
+
+
+
+
+.s-chat-message__pinned , .s-chat-message__pinned a {
+    background: rgb(64, 69, 63) !important;
+    color: #ffffff  !important;
+    border: none !important;
+}
+/* Timestamps */
+.s-chat-message_timestamp {
+    color: #000000 !important;
+}
+
+
+
+
+
+
+
+
+#chatMessageContainer {
+    border: none !important;
+}
+
+
+button#label_currentChannel {
+    background: rgb(64, 69, 63) !important;
+    color: rgb(255,255,255) !important;
+    border-radius: 90px !important;
+    **;
+}
+
+
+
+
+
+
+
+
+.breadcrumb::after {
+        content: "CSS by LemonSeltzer #269782";
+        color: #ffffff;
+        position: absolute;
+        right: 13%; 
+        z-index: 100;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%
+        }
+
+
+    }
+
+
+
