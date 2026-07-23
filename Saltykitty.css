@@ -19,9 +19,9 @@ body {
 }
  
 .topbar {
-    background: rgba(250, 245, 229, .75);
+    background: rgba(86, 65, 56,1);
     font-family: "Kameron";
-    color: rgb(64, 69, 63);
+    color: rgb(255, 198, 173);
     !important;
 }
 .navbar {
@@ -58,7 +58,7 @@ div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
 
 .container.main {
     background: rgba(250, 245, 229, .7);
-    font-family: "Kameron ;
+    font-family: "Kameron" ;
     color: rgba(0,24,255,0.7) !important;
     box-shadow: none;
     border-radius: 0px;
