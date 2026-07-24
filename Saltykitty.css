@@ -1,23 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap');
 .kameron-<uniquifier> {
-  font-family: "Kameron", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-family: "Kameron", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
-
 
 body {
     background: url('https://i.postimg.cc/PJTCb3xD/image.png');
     background-size: 1900px;
-    background-repeat: no-repeat; 
-    background-attachment: fixed;    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: "Kameron" !important;
     color: #ea00ff !important;
     border: none;
-    
+
 }
- 
+
 .topbar {
     background: rgba(86, 65, 56,1);
     font-family: "Kameron";
@@ -25,96 +24,84 @@ body {
     !important;
 }
 .navbar {
-    background: rgba(250, 245, 229, 1);
+    background: rgba(220, 193, 168, 1);
     font-family: "Kameron";
-    color: rgba(64, 69, 63) !important;
+    color: rgb(43,255,0) !important;
     border: none;
-    border-radius: 0px !important;
+    border-radius: 0 !important;
 }
 .navbar li a {
-    color: rgba(64, 69, 63, 1) !important;
+    color: rgba(86, 65, 56, 1) !important;
     font-family: "Kameron";
     border: none;
     box-shadow: none;
-    
+
 }
 .navbar li a:hover {
-    background: rgb(220,215,199) !important;
+    background: rgba(255,255,255,.5) !important;
     font-family: "Kameron" !important;
+    border-radius: 50px;
     !important;
 }
-
-
 div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
-    content: url('https://static.vecteezy.com/system/resources/previews/010/187/410/non_2x/white-flower-watercolor-free-png.png');
+    content: url('https://i.ibb.co/v2DCtyC/logo-full-2.png');
     max-height: 150px !important;
-    transform: translate(10px, -30px) !important;
+    transform: translate(0px, 0px) !important;
+    
+    
 }
 
-
-
-
-
-
 .container.main {
-    background: rgba(250, 245, 229, .7);
-    font-family: "Kameron" ;
+    background: rgba(220, 193, 168, 1);
+    font-family: "Kameron";
     color: rgba(0,24,255,0.7) !important;
     box-shadow: none;
-    border-radius: 0px;
+    border-radius: 0;
 }
 
 .col-md-9 {
     background: rgba(79,45,12,0);
     font-family: "Kameron";
     border: none !important;
-    color: rgb(58, 81, 58);
+    color: rgba(86, 65, 56, 1);
     box-shadow: none;
-    border-radius: 0px;
+    border-radius: 0;
 }
 
 .breadcrumb {
-    background: rgba(98, 118, 99);
-    border-radius: 0px; 
+    background: rgb(86, 65, 56, 1);
+    border-radius: 0;
     font-family: "Kameron";
 }
 .breadcrumb .active {
-    color: rgb(38,54,38);
+    color: rgb(255,255,255);
     font-family: "Kameron";
     border: none !important;
 }
 
-
-
-
-
-
-
-
 .alert {
-    background: rgba(58, 81, 58, .5);
+    background: rgba(255, 198, 173, .5);
     font-family: "Kameron" !important;
-    color: rgb(64, 69, 63) !important;
+    color: rgb(86, 65, 56) !important;
     border: none !important;
 }
 
 .alert a {
-    color: rgb(64, 69, 63) !important;
+    color: rgb(59, 43, 46) !important;
     font-family: "Kameron" !important;
 }
 .alert a:hover {
-    color: rgb(58, 81, 58) !important;
+    color: rgb(59, 43, 46) !important;
     font-family: "Kameron" !important;
 }
 
-.alert-warning, 
-.alert-danger,  {
-    background: rgba(64, 69, 63, .5);
-    color: rgb(58, 81, 58)
-    border: none;
+.alert-warning,
+.alert-danger,
+ {
+    background: rgba(255, 198, 173, .5);
+    color:rgb(86, 65, 56) border: none;
     font-family: "Kameron";
 }
-
 
 .feature,
 div.left {
@@ -123,187 +110,151 @@ div.left {
     border: none !important;
 }
 
-
-
-
-
-
-
-
 .panel {
-    background: rgba(255, 255, 255,0.3-5) !important;
+    background: rgba(255, 255, 255,0.5) !important;
     border: none !important;
     box-shadow: none !important;
-    color: rgb(58, 81, 58) !important;
+    color: rgb(86, 65, 56) !important;
 }
 .progress {
-    background: rgb(98, 118, 99);
+    background: rgb(255,255,255);
     color: rgb(255,255,255);
 }
-.progress-div, div.progress {
+.progress-div,
+div.progress {
     color: rgb(255, 255, 255) !important;
 }
 .progress-bar {
-    background: rgb(154,189,146);
+    background: rgb(220, 193, 168);
     color: rgb(255,255,255);
 }
 
-
-
-
-
-
-
-
 h1 {
-    color: rgb(64, 69, 63);
+    color: rgb(59, 43, 46);
     font-size: 48px;
     font-family: "Kameron" !important;
     text-align: center;
-    border: none , #FFFFFF;
+    border: dashed , #FFFFFF;
     border-radius: 40px;
     border-width: 6px;
-    
+
 }
 
-
-
-
 h3 {
-    color: rgb(64, 69, 63) !important;
+    color: rgb(86, 65, 56) !important;
     font-size: 24px !important;
     font-family: "Kameron";
 }
 
-
 div.xlarge.b {
-    background: rgba(250, 245, 229,0);
+    background: rgba(250, 245, 229,.5);
     font-family: "Kameron";
     font-style: italic;
     color: rgb(64, 69, 63) !important;
     border-radius: 70px;
-    border-width: 5px
+    border-width: 5px;
 }
 div.xlarge.b a {
     font-family: "Kameron" !important;
-    color: rgb(64, 69, 63) !important; }
+    color: rgb(59, 43, 46) !important;
+}
 
 td.bottom {
-    background:rgb(0,0,0,0) !important;
+    background: rgb(0,0,0,0) !important;
+    color: rgb(59, 43, 46);
 }
 
 td.bottom a {
-    color: rgb(64, 69, 63) !important;
+    color: rgb(59, 43, 46) !important;
 }
 
 form {
-    background: rgb(98, 118, 99,.7);
+    background: rgb(220, 193, 168,.7);
     border: none;
     border-radius: 20px;
     border-width: 5px;
     font-family: "Kameron";
 }
 
-
 div.floatright {
     border: none !important;
+    color: 59, 43, 46; !important
 }
-
-
-
 
 .cave-grid,
 .mound-grid {
-    background: rgba(250, 245, 229,1);
+    background: rgb(255,255,255);
     border: none !important;
     border-radius: 70px !important;
 }
 
-
-
-
-
-
-
-
 .table {
-    background: rgba(97,136,70,0) !important;
+    background: rgba(86, 65, 56,.3) !important;
     font-family: "Kameron";
     border: none;
+    border-radius: 50px;
 }
 
 .h3 {
     font-family: "Kameron";
-    color: rgb(64, 69, 63);
-    font-size: 20px;
+    color: rgb(59, 43, 46);
+    font-size: 30px;
     font-style: italic;
 }
 
 th {
-    color: rgb(64, 69, 63);
+    color: rgba(255,0,0,1);
     text-align: center;
     font-style: italic;
 }
 
-
 .top {
     background: rgba(0,0,0,0) !important;
+    text-align: center;
 }
 
 .bottom,
 th,
 .table .left {
-    background: rgb(64, 69, 63, .5) !important;
-    color: rgb(64, 69, 63);
+    background: rgb(64, 69, 63, .0) !important;
+    color: rgb(86, 65, 56);
 }
 .inner-table .left {
     background: rgba(255, 255, 255,.5) !important;
-    border-bottom-left-radius: 45px;
-     border-top-left-radius: 45px;
-    color: rgb(64, 69, 63) !important;
+    
+    color: rgb(86, 65, 56) !important;
 }
 .inner-table .right {
-     background: rgba(255, 255, 255,.5) !important;
-    border-bottom-right-radius: 45px;
-     border-top-right-radius: 45px;
-    color: rgb(64, 69, 63);
+    background: rgba(255, 255, 255,.5) !important;
+    
+    color: rgb(86, 65, 56);
 }
-
 
 .inner-table .right a {
-    color: rgb(64, 69, 63);
+    color: rgb(86, 65, 56);
 }
 
-
-
 .right_odd {
-    background: rgba(255,255,255,0.5) !important;
-    text-align: center
+    background: rgba(255,255,255,0) !important;
+    text-align: center;
 }
 .right_cub {
     background: rgba(255,255,255,0.5) !important;
 }
 a:link,
 a:visited {
-    color: rgb(58, 81, 58) ;
-    font-family: "Kameron" ;
+    color: rgb(59, 43, 46);
+    font-family: "Kameron";
 }
 a:hover {
-    color: rgb(98, 118, 99) !important;
+    color: rgb(255,255,255) !important;
     font-family: "Kameron" !important;
 }
-
-
-
-
-
-
-
 
 input,
 select,
 textarea {
-    background:rgba(255, 255, 255,0.66);
+    background: rgba(255, 255, 255,0.66);
     border-radius: 45px !important;
     border: none;
     box-shadow: none !important;
@@ -312,25 +263,20 @@ textarea {
     font-family: "Kameron";
 }
 
-
 input#postComment {
-    background: rgb(250, 245, 229);
+    background: rgb(255,255,255);
     border: none;
-    color: rgb(64, 69, 63);
+    color: rgb(59, 43, 46);
 }
-
 
 input#btnChatSend {
     background: #FFFFFF;
 }
 
-
-
 input[type="submit"] {
     background: #ffffff;
-    color: rgb(250, 245, 229);
+    color: rgb(59, 43, 46);
 }
-
 
 input[type=button] {
     background: rgb(255,255,255) !important;
@@ -338,17 +284,9 @@ input[type=button] {
 }
 input[type=button]:hover,
 input[type=submit]:hover {
-    background: rgb(250, 245, 229) !important;
+    background: rgb(255,255,255) !important;
     font-family: "Kameron";
 }
-
-
-
-
-
-
-
-
 
 div#lion_image {
     border-radius: 30% !important;
@@ -358,11 +296,6 @@ div#lion_image {
     /* May need adjusting */
     margin-left: 12px;
 }
-
-
-
-
-
 
 div.cave-grid>img 
 /* Pregnant Lionesses */
@@ -374,45 +307,17 @@ div.cave-grid>img
     border: none;
 }
 
-
-
-
-
-
-
-
 a[href$="381245"]>div.cave-grid>img {
     content: url('https://i.ibb.co/5XmdTbn6/IMG-3988.jpg') !important;
 }
-
-
-
-
-
-
-
 
 a[href$="325460"]>div.cave-grid>img {
     content: url('https://i.ibb.co/5XmdTbn6/IMG-3988.jpg') !important;
 }
 
-
-
-
-
-
-
-
 a[href$="210125"]>div.cave-grid>img {
     content: url('https://i.ibb.co/5XmdTbn6/IMG-3988.jpg') !important;
 }
-
-
-
-
-
-
-
 
 a[href$="lionoverview.php?id=269782"]>div.cave-grid>img 
 /* Pride Overview */
@@ -420,25 +325,11 @@ a[href$="lionoverview.php?id=269782"]>div.cave-grid>img
     content: url('https://i.ibb.co/5XmdTbn6/IMG-3988.jpg') !important;
 }
 
-
-
-
-
-
-
-
 a[href$="unsorted.php?id=269782"]>div.cave-grid>img 
 /* Unsorted */
 {
     content: url('https://i.ibb.co/5XmdTbn6/IMG-3988.jpg') !important;
 }
-
-
-
-
-
-
-
 
 .mound-grid img 
 /* Mound(s) */
@@ -448,8 +339,7 @@ a[href$="unsorted.php?id=269782"]>div.cave-grid>img
     width: 150px;
     padding-top: -0px;
     bottom: -0px;
-    border-radius: 40px
-     
+    border-radius: 40px;
 }
 .s-chat-message:nth-child(even) {
     background: rgb(255,255,255) !important;
@@ -457,19 +347,15 @@ a[href$="unsorted.php?id=269782"]>div.cave-grid>img
     border: none;
 }
 .s-chat-message:nth-child(odd) {
-    background: rgb(250, 245, 229) !important;
-    color: #000000 !important;
+    background: rgb(236,220,205) !important;
+    color: rgb(59, 43, 46) !important;
     border: none !important;
 }
 
-
-
-
-
-
-.s-chat-message__pinned , .s-chat-message__pinned a {
-    background: rgb(64, 69, 63) !important;
-    color: #ffffff  !important;
+.s-chat-message__pinned,
+.s-chat-message__pinned a {
+    background: rgb(86, 65, 56) !important;
+    color: #ffffff !important;
     border: none !important;
 }
 /* Timestamps */
@@ -477,101 +363,39 @@ a[href$="unsorted.php?id=269782"]>div.cave-grid>img
     color: #000000 !important;
 }
 
-
-
-
-
-
-
-
 #chatMessageContainer {
     border: none !important;
 }
 
-
 button#label_currentChannel {
-    background: rgb(64, 69, 63) !important;
+    background: rgb(86, 65, 56) !important;
     color: rgb(255,255,255) !important;
     border-radius: 90px !important;
     **;
 }
-
-
-
-
-
-
-
-
 .breadcrumb::after {
-        content: "CSS by LemonSeltzer #269782";
-        color: #ffffff;
-        position: absolute;
-        right: 13%; 
-        z-index: 100;
+    content: "CSS by LemonSeltzer #269782";
+    color: #ffffff;
+    position: absolute;
+    right: 13%;
+    z-index: 100;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .breadcrumb::after {
+        right: 20%;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .breadcrumb::after {
+        right: 20%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .breadcrumb::after {
+        right: 22%;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 1199px) and (min-width: 992px)  {
-        .breadcrumb::after {
-            right: 20%
-        }
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    @media only screen and (max-width: 991px) and (min-width: 768px)  {
-        .breadcrumb::after {
-            right: 20%
-        }
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    @media only screen and (max-width: 767px) {
-        .breadcrumb::after {
-            right: 22%
-        }
-
-
-    }
+}
