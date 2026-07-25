@@ -369,7 +369,7 @@ a[href$="unsorted.php?id=269782"]>div.cave-grid>img
 
 button#label_currentChannel {
     background: rgb(86, 65, 56) !important;
-    color: rgb(255,255,255) !important;
+    color: rgb(255,255,255) !important; 
     border-radius: 90px !important;
     **;
 }
