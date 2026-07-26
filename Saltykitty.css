@@ -5,6 +5,10 @@
     font-weight: <weight>;
     font-style: normal;
 }
+* {
+  cursor: url('https://cdn.cursors-4u.net/previews/clemson-tigers-ee52084e-32.webp') 32 32, auto !important;
+  
+}
 
 body {
     background: url('https://i.postimg.cc/PJTCb3xD/image.png');
@@ -243,9 +247,14 @@ th,
 }
 a:link,
 a:visited {
-    color: rgb(59, 43, 46);
+    color: rgb(59, 43, 46) ;
     font-family: "Kameron";
 }
+.topbar a:link, .topbar a:visited, .topbar a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 a:hover {
     color: rgb(255,255,255) !important;
     font-family: "Kameron" !important;
@@ -300,45 +309,47 @@ div#lion_image {
 div.cave-grid>img 
 /* Pregnant Lionesses */
 {
-    content: url('https://i.ibb.co/5XmdTbn6/IMG-3988.jpg') !important;
+    content: url('https://i.pinimg.com/736x/a9/f4/98/a9f4981cdd9f752ac0750e48c97374b3.jpg') !important;
     border-radius: 50px;
-    height: 200px;
+    height: 150px;
     width: 250px;
     border: none;
 }
 
 a[href$="381245"]>div.cave-grid>img {
-    content: url('https://i.ibb.co/5XmdTbn6/IMG-3988.jpg') !important;
+    content: url('https://i.pinimg.com/736x/a9/f4/98/a9f4981cdd9f752ac0750e48c97374b3.jpg') !important;
 }
 
 a[href$="325460"]>div.cave-grid>img {
-    content: url('https://i.ibb.co/5XmdTbn6/IMG-3988.jpg') !important;
+    content: url('https://i.pinimg.com/736x/a9/f4/98/a9f4981cdd9f752ac0750e48c97374b3.jpg') !important;
 }
 
 a[href$="210125"]>div.cave-grid>img {
-    content: url('https://i.ibb.co/5XmdTbn6/IMG-3988.jpg') !important;
+    content: url('https://i.pinimg.com/736x/a9/f4/98/a9f4981cdd9f752ac0750e48c97374b3.jpg') !important;
 }
 
 a[href$="lionoverview.php?id=269782"]>div.cave-grid>img 
 /* Pride Overview */
 {
-    content: url('https://i.ibb.co/5XmdTbn6/IMG-3988.jpg') !important;
+    content: url('https://i.pinimg.com/736x/a9/f4/98/a9f4981cdd9f752ac0750e48c97374b3.jpg') !important;
 }
 
 a[href$="unsorted.php?id=269782"]>div.cave-grid>img 
 /* Unsorted */
 {
-    content: url('https://i.ibb.co/5XmdTbn6/IMG-3988.jpg') !important;
+    content: url('https://i.pinimg.com/736x/a9/f4/98/a9f4981cdd9f752ac0750e48c97374b3.jpg') !important;
 }
 
 .mound-grid img 
 /* Mound(s) */
 {
-    content: url("https://i.ibb.co/5XmdTbn6/IMG-3988.jpg");
+    content: url("https://i.pinimg.com/736x/a9/f4/98/a9f4981cdd9f752ac0750e48c97374b3.jpg");
     position: relative;
-    width: 150px;
+    width: 200px;
+    height: 150px;
     padding-top: -0px;
     bottom: -0px;
+    padding-right: 30px;
     border-radius: 40px;
 }
 .s-chat-message:nth-child(even) {
@@ -369,7 +380,7 @@ a[href$="unsorted.php?id=269782"]>div.cave-grid>img
 
 button#label_currentChannel {
     background: rgb(86, 65, 56) !important;
-    color: rgb(255,255,255) !important; 
+    color: rgb(255,255,255) !important;
     border-radius: 90px !important;
     **;
 }
