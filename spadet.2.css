@@ -13,7 +13,7 @@
 body {
     background: url('https://i.postimg.cc/vmTGBhv7/dogbone.png');
     background-size: 1900px;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
     font-family: "Kameron" !important;
     color: #ea00ff !important;
