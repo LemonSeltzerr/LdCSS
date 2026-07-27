@@ -11,10 +11,10 @@
 }
 
 body {
-    background: url('https://i.postimg.cc/vmTGBhv7/dogbone.png');
+    background: url('https://i.postimg.cc/3wG2kJq4/dogbone.png');
     background-size: 1900px;
     background-repeat: repeat;
-    background-attachment: fixed;
+    background-attachment: fill;
     font-family: "Kameron" !important;
     color: #ea00ff !important;
     border: none;
@@ -187,7 +187,7 @@ div.floatright {
 
 .cave-grid,
 .mound-grid {
-    background: rgb(255,255,255);
+    background: rgba(255,255,255,0);
     border: none !important;
     border-radius: 70px !important;
 }
@@ -309,7 +309,7 @@ div#lion_image {
 div.cave-grid>img 
 /* Pregnant Lionesses */
 {
-    content: url('https://i.postimg.cc/tRxFSQx2/caveicon.png') !important;
+    content: url('https://i.postimg.cc/prL9J2sS/caveicon.png') !important;
     border-radius: 50px;
     height: 150px;
     width: 250px;
