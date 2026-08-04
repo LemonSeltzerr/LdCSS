@@ -1,0 +1,413 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Romanesco&display=swap');
+
+.romanesco-regular {
+  font-family: "Romanesco", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+   cursor: url('https://cdn.cursors-4u.net/previews/vindictus-hero-enchant-723d5618-32.webp') 32 32, auto !important;
+  
+}
+
+body {
+    background: url('https://i.ibb.co/bRyPnmBT/Untitled.png');
+    background-size: 1900px;
+    background-repeat: repeat;
+    background-attachment: fill;
+    font-family: "Kameron" !important;
+    color: #ea00ff !important;
+    border: none;
+
+}
+
+.topbar {
+    background: rgba(86, 65, 56,1);
+    font-family: "Kameron";
+    color: rgb(255, 198, 173);
+    !important;
+}
+.navbar {
+    background: rgba(220, 193, 168, 1);
+    font-family: "Kameron";
+    color: rgb(43,255,0) !important;
+    border: none;
+    border-radius: 0 !important;
+}
+.navbar li a {
+    color: rgba(86, 65, 56, 1) !important;
+    font-family: "Kameron";
+    border: none;
+    box-shadow: none;
+
+}
+.navbar li a:hover {
+    background: rgba(255,255,255,.5) !important;
+    font-family: "Kameron" !important;
+    border-radius: 50px;
+    !important;
+}
+div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
+    content: url('https://i.postimg.cc/d0Y8c7m0/Liodendogbone.png');
+    max-height: 100px !important;
+    transform: translate(0px, 0px) !important;
+    
+    
+}
+
+.container.main {
+    background: rgba(220, 193, 168, 1);
+    font-family: "Kameron";
+    color: rgba(0,24,255,0.7) !important;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.col-md-9 {
+    background: rgba(79,45,12,0);
+    font-family: "Kameron";
+    border: none !important;
+    color: rgba(86, 65, 56, 1);
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.breadcrumb {
+    background: rgb(86, 65, 56, 1);
+    border-radius: 0;
+    font-family: "Kameron";
+}
+.breadcrumb .active {
+    color: rgb(255,255,255);
+    font-family: "Kameron";
+    border: none !important;
+}
+
+.alert {
+    background: rgba(255, 198, 173, .5);
+    font-family: "Kameron" !important;
+    color: rgb(86, 65, 56) !important;
+    border: none !important;
+}
+
+.alert a {
+    color: rgb(59, 43, 46) !important;
+    font-family: "Kameron" !important;
+}
+.alert a:hover {
+    color: rgb(59, 43, 46) !important;
+    font-family: "Kameron" !important;
+}
+
+.alert-warning,
+.alert-danger,
+ {
+    background: rgba(255, 198, 173, .5);
+    color:rgb(86, 65, 56) border: none;
+    font-family: "Kameron";
+}
+
+.feature,
+div.left {
+    background: rgba(255, 255, 255, .5) !important;
+    font-family: "Kameron" !important;
+    border: none !important;
+}
+
+.panel {
+    background: rgba(255, 255, 255,0.5) !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: rgb(86, 65, 56) !important;
+}
+.progress {
+    background: rgb(255,255,255);
+    color: rgb(255,255,255);
+}
+.progress-div,
+div.progress {
+    color: rgb(255, 255, 255) !important;
+}
+.progress-bar {
+    background: rgb(220, 193, 168);
+    color: rgb(255,255,255);
+}
+
+h1 {
+    color: rgb(59, 43, 46);
+    font-size: 48px;
+    font-family: "Kameron" !important;
+    text-align: center;
+    border: dashed , #FFFFFF;
+    border-radius: 40px;
+    border-width: 6px;
+
+}
+
+h3 {
+    color: rgb(86, 65, 56) !important;
+    font-size: 24px !important;
+    font-family: "Kameron";
+}
+
+div.xlarge.b {
+    background: rgba(250, 245, 229,.5);
+    font-family: "Kameron";
+    font-style: italic;
+    color: rgb(64, 69, 63) !important;
+    border-radius: 70px;
+    border-width: 5px;
+}
+div.xlarge.b a {
+    font-family: "Kameron" !important;
+    color: rgb(59, 43, 46) !important;
+}
+
+td.bottom {
+    background: rgb(0,0,0,0) !important;
+    color: rgb(59, 43, 46);
+}
+
+td.bottom a {
+    color: rgb(59, 43, 46) !important;
+}
+
+form {
+    background: rgb(220, 193, 168,.7);
+    border: none;
+    border-radius: 20px;
+    border-width: 5px;
+    font-family: "Kameron";
+}
+
+div.floatright {
+    border: none !important;
+    color: 59, 43, 46; !important
+}
+
+.cave-grid,
+.mound-grid {
+    background: rgba(255,255,255,0);
+    border: none !important;
+    border-radius: 70px !important;
+}
+
+.table {
+    background: rgba(86, 65, 56,.3) !important;
+    font-family: "Kameron";
+    border: none;
+    border-radius: 50px;
+}
+
+.h3 {
+    font-family: "Kameron";
+    color: rgb(59, 43, 46);
+    font-size: 30px;
+    font-style: italic;
+}
+
+th {
+    color: rgba(255,0,0,1);
+    text-align: center;
+    font-style: italic;
+}
+
+.top {
+    background: rgba(0,0,0,0) !important;
+    text-align: center;
+}
+
+.bottom,
+th,
+.table .left {
+    background: rgb(64, 69, 63, .0) !important;
+    color: rgb(86, 65, 56);
+}
+.inner-table .left {
+    background: rgba(255, 255, 255,.5) !important;
+    
+    color: rgb(86, 65, 56) !important;
+}
+.inner-table .right {
+    background: rgba(255, 255, 255,.5) !important;
+    
+    color: rgb(86, 65, 56);
+}
+
+.inner-table .right a {
+    color: rgb(86, 65, 56);
+}
+
+.right_odd {
+    background: rgba(255,255,255,0) !important;
+    text-align: center;
+}
+.right_cub {
+    background: rgba(255,255,255,0.5) !important;
+}
+a:link,
+a:visited {
+    color: rgb(59, 43, 46) ;
+    font-family: "Kameron";
+}
+.topbar a:link, .topbar a:visited, .topbar a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255,255,255) !important;
+    font-family: "Kameron" !important;
+}
+
+input,
+select,
+textarea {
+    background: rgba(255, 255, 255,0.66);
+    border-radius: 45px !important;
+    border: none;
+    box-shadow: none !important;
+    color: rgb(0,0,0) !important;
+    text-shadow: none !important;
+    font-family: "Kameron";
+}
+
+input#postComment {
+    background: rgb(255,255,255);
+    border: none;
+    color: rgb(59, 43, 46);
+}
+
+input#btnChatSend {
+    background: #FFFFFF;
+}
+
+input[type="submit"] {
+    background: #ffffff;
+    color: rgb(59, 43, 46);
+}
+
+input[type=button] {
+    background: rgb(255,255,255) !important;
+    border: none !important;
+}
+input[type=button]:hover,
+input[type=submit]:hover {
+    background: rgb(255,255,255) !important;
+    font-family: "Kameron";
+}
+
+div#lion_image {
+    border-radius: 30% !important;
+    border: none;
+    overflow: hidden;
+    margin-top: 15px;
+    /* May need adjusting */
+    margin-left: 12px;
+}
+
+div.cave-grid>img 
+/* Pregnant Lionesses */
+{
+    content: url('https://i.postimg.cc/prL9J2sS/caveicon.png') !important;
+    border-radius: 50px;
+    height: 150px;
+    width: 250px;
+    border: none;
+}
+
+a[href$="381245"]>div.cave-grid>img {
+    content: url('https://i.pinimg.com/736x/a9/f4/98/a9f4981cdd9f752ac0750e48c97374b3.jpg') !important;
+}
+
+a[href$="325460"]>div.cave-grid>img {
+    content: url('https://i.pinimg.com/736x/a9/f4/98/a9f4981cdd9f752ac0750e48c97374b3.jpg') !important;
+}
+
+a[href$="210125"]>div.cave-grid>img {
+    content: url('https://i.pinimg.com/736x/a9/f4/98/a9f4981cdd9f752ac0750e48c97374b3.jpg') !important;
+}
+
+a[href$="lionoverview.php?id=269782"]>div.cave-grid>img 
+/* Pride Overview */
+{
+    content: url('https://i.pinimg.com/736x/a9/f4/98/a9f4981cdd9f752ac0750e48c97374b3.jpg') !important;
+}
+
+a[href$="unsorted.php?id=269782"]>div.cave-grid>img 
+/* Unsorted */
+{
+    content: url('https://i.pinimg.com/736x/a9/f4/98/a9f4981cdd9f752ac0750e48c97374b3.jpg') !important;
+}
+
+.mound-grid img 
+/* Mound(s) */
+{
+    content: url("https://i.postimg.cc/tRxFSQx2/caveicon.png");
+    position: relative;
+    width: 200px;
+    height: 150px;
+    padding-top: -0px;
+    bottom: -0px;
+    padding-right: 30px;
+    border-radius: 40px;
+}
+.s-chat-message:nth-child(even) {
+    background: rgb(255,255,255) !important;
+    color: #000000 !important;
+    border: none;
+}
+.s-chat-message:nth-child(odd) {
+    background: rgb(236,220,205) !important;
+    color: rgb(59, 43, 46) !important;
+    border: none !important;
+}
+
+.s-chat-message__pinned,
+.s-chat-message__pinned a {
+    background: rgb(86, 65, 56) !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+/* Timestamps */
+.s-chat-message_timestamp {
+    color: #000000 !important;
+}
+
+#chatMessageContainer {
+    border: none !important;
+}
+
+button#label_currentChannel {
+    background: rgb(86, 65, 56) !important;
+    color: rgb(255,255,255) !important;
+    border-radius: 90px !important;
+    **;
+}
+.breadcrumb::after {
+    content: "CSS by LemonSeltzer #269782";
+    color: #ffffff;
+    position: absolute;
+    right: 13%;
+    z-index: 100;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .breadcrumb::after {
+        right: 20%;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .breadcrumb::after {
+        right: 20%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .breadcrumb::after {
+        right: 22%;
+    }
+
+}
