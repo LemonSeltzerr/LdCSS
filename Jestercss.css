@@ -365,26 +365,38 @@ a[href$="unsorted.php?id=269782"]>div.cave-grid>img
     padding-right: 30px;
     border-radius: 40px;
 }
+.dynastycollection img {
+    content: url("https://i.pinimg.com/736x/a8/d8/fd/a8d8fd9ace541bb60a590475e00c8663.jpg");
+    height: 9vh;
+    width: 90vw !important;
+    
+}
+
 .s-chat-message:nth-child(even) {
-    background: rgb(255,255,255) !important;
+    background: rgb(224,166,166) !important;
     color: #000000 !important;
     border: none;
+    font-size: 19px;
+    text-align: center;
 }
 .s-chat-message:nth-child(odd) {
-    background: rgb(236,220,205) !important;
+    background: rgb(236,205,205) !important;
     color: rgb(59, 43, 46) !important;
     border: none !important;
+    font-size: 19px;
+    text-align: center;
 }
 
 .s-chat-message__pinned,
 .s-chat-message__pinned a {
-    background: rgb(86, 65, 56) !important;
-    color: #ffffff !important;
+    background: rgb(241,202,202) !important;
+    color: #623434 !important;
     border: none !important;
 }
 /* Timestamps */
 .s-chat-message_timestamp {
-    color: #000000 !important;
+    color: #751919 !important;
+    text-align: left; !important
 }
 
 #chatMessageContainer {
@@ -392,8 +404,8 @@ a[href$="unsorted.php?id=269782"]>div.cave-grid>img
 }
 
 button#label_currentChannel {
-    background: rgb(86, 65, 56) !important;
-    color: rgb(255,255,255) !important;
+    background: rgb(255,249,246) !important;
+    color: rgb(255,136,136) !important;
     border-radius: 90px !important;
     **;
 }
