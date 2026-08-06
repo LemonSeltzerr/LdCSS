@@ -23,41 +23,44 @@ body {
 }
 
 .topbar {
-    background: rgba(86, 65, 56,1);
+    background: rgba(74, 74, 72,1);
     font-family: "Romanesco";
-    color: rgb(255, 198, 173);
+    font-size: 20px;
+    color: rgb(246, 174, 45);
+    
     !important;
 }
 .navbar {
-    background: rgba(220, 193, 168, 1);
+    background: rgba(74, 74, 72,1);
     font-family: "Romanesco";
     color: rgb(43,255,0) !important;
     border: none;
     border-radius: 0 !important;
 }
 .navbar li a {
-    color: rgba(86, 65, 56, 1) !important;
+    color: rgba(246, 174, 45) !important;
     font-family: "Romanesco";
     border: none;
     box-shadow: none;
 
 }
 .navbar li a:hover {
-    background: rgba(255,255,255,.5) !important;
+    background: rgba(246, 174, 45,.25) !important;
     font-family: "Romanesco" !important;
     border-radius: 50px;
     !important;
 }
 div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
-    content: url('https://i.postimg.cc/d0Y8c7m0/Liodendogbone.png');
-    max-height: 100px !important;
+    content: url('https://pngpix.com/images/hd/black-raven-feather-png-oye33-rm2g3kimo9n6potv.jpg');
+    max-height: 150px !important;
+    rotate: 50deg;
     transform: translate(0px, 0px) !important;
     
     
 }
 
 .container.main {
-    background: rgba(220, 193, 168, 1);
+    background: rgba(74, 74, 72);
     font-family: "Romanesco";
     color: rgba(0,24,255,0.7) !important;
     box-shadow: none;
@@ -68,13 +71,13 @@ div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
     background: rgba(79,45,12,0);
     font-family: "Romanesco";
     border: none !important;
-    color: rgba(86, 65, 56, 1);
+    color: rgba(22, 23, 24);
     box-shadow: none;
     border-radius: 0;
 }
 
 .breadcrumb {
-    background: rgb(86, 65, 56, 1);
+    background: rgb(22, 23, 24);
     border-radius: 0;
     font-family: "Romanesco";
 }
@@ -85,14 +88,14 @@ div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
 }
 
 .alert {
-    background: rgba(255, 198, 173, .5);
+    background: rgb(246, 174, 45);
     font-family: "Romanesco" !important;
-    color: rgb(86, 65, 56) !important;
+    color: rgb(22, 23, 24) !important;
     border: none !important;
 }
 
 .alert a {
-    color: rgb(59, 43, 46) !important;
+    color: rgb(22, 23, 24) !important;
     font-family: "Romanesco" !important;
 }
 .alert a:hover {
@@ -103,14 +106,14 @@ div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
 .alert-warning,
 .alert-danger,
  {
-    background: rgba(255, 198, 173, .5);
-    color:rgb(86, 65, 56) border: none;
+    background: rgb(246, 174, 45);
+    color:rgb(22, 23, 24) border: none;
     font-family: "Romanesco";
 }
 
 .feature,
 div.left {
-    background: rgba(255, 255, 255, .5) !important;
+    background: rgba(255, 241, 241) !important;
     font-family: "Romanesco" !important;
     border: none !important;
 }
@@ -119,7 +122,8 @@ div.left {
     background: rgba(255, 255, 255,0.5) !important;
     border: none !important;
     box-shadow: none !important;
-    color: rgb(86, 65, 56) !important;
+    color: rgb(0,0,0) !important;
+    font-size: 30px !important;
 }
 .progress {
     background: rgb(255,255,255);
@@ -130,71 +134,77 @@ div.progress {
     color: rgb(255, 255, 255) !important;
 }
 .progress-bar {
-    background: rgb(220, 193, 168);
+    background: rgb(246, 174, 45);
     color: rgb(255,255,255);
 }
 
 h1 {
-    color: rgb(59, 43, 46);
+    color: rgb(0,0,0);
     font-size: 48px;
     font-family: "Romanesco" !important;
     text-align: center;
-    border: dashed , #FFFFFF;
+    border: none , #FFFFFF;
     border-radius: 40px;
     border-width: 6px;
 
 }
 
 h3 {
-    color: rgb(86, 65, 56) !important;
+    color: rgb(0,0,0) !important;
     font-size: 24px !important;
     font-family: "Romanesco";
 }
 
 div.xlarge.b {
-    background: rgba(250, 245, 229,.5);
+    background: rgba(250,245,229,0);
     font-family: "Romanesco";
     font-style: italic;
-    color: rgb(64, 69, 63) !important;
+    color: rgb(0,0,0) !important;
     border-radius: 70px;
     border-width: 5px;
+    font-size: 25px;
 }
 div.xlarge.b a {
     font-family: "Romanesco" !important;
-    color: rgb(59, 43, 46) !important;
+    color: rgb(0,0,0) !important;
 }
 
 td.bottom {
     background: rgb(0,0,0,0) !important;
     color: rgb(59, 43, 46);
+    font-size: 20px;
 }
 
 td.bottom a {
-    color: rgb(59, 43, 46) !important;
+    color: rgb(236, 164, 164) !important;
 }
 
 form {
-    background: rgb(220, 193, 168,.7);
+    background: rgba(224,158,158,0.83);
     border: none;
     border-radius: 20px;
     border-width: 5px;
     font-family: "Romanesco";
 }
 
+table#about.table {
+    background: rgb(73,73,73) !important;
+}
+
 div.floatright {
-    border: none !important;
-    color: 59, 43, 46; !important
+    color: rgb(0,0,0); !important
+    font-size: 25px; !important
 }
 
 .cave-grid,
 .mound-grid {
-    background: rgba(255,255,255,0);
+    background: rgba(224,158,158,0.83);
     border: none !important;
     border-radius: 70px !important;
 }
 
 .table {
-    background: rgba(86, 65, 56,.3) !important;
+    background: rgba(224,158,158,0.44) !important;
     font-family: "Romanesco";
     border: none;
     border-radius: 50px;
@@ -202,7 +212,7 @@ div.floatright {
 
 .h3 {
     font-family: "Romanesco";
-    color: rgb(59, 43, 46);
+    color: rgb(0,0,0);
     font-size: 30px;
     font-style: italic;
 }
@@ -210,7 +220,8 @@ div.floatright {
 th {
     color: rgba(255,0,0,1);
     text-align: center;
-    font-style: italic;
+    font-size: 25px; !important
+    
 }
 
 .top {
@@ -222,37 +233,38 @@ th {
 th,
 .table .left {
     background: rgb(64, 69, 63, .0) !important;
-    color: rgb(86, 65, 56);
+    color: rgb(0,0,0);
 }
 .inner-table .left {
     background: rgba(255, 255, 255,.5) !important;
     
-    color: rgb(86, 65, 56) !important;
+    color: rgb(0,0,0) !important;
 }
 .inner-table .right {
     background: rgba(255, 255, 255,.5) !important;
     
-    color: rgb(86, 65, 56);
+    color: rgb(0,0,0);
 }
 
 .inner-table .right a {
-    color: rgb(86, 65, 56);
+    color: rgb(0,0,0);
 }
 
 .right_odd {
     background: rgba(255,255,255,0) !important;
     text-align: center;
+    font-size: 25px;
 }
 .right_cub {
     background: rgba(255,255,255,0.5) !important;
 }
 a:link,
 a:visited {
-    color: rgb(59, 43, 46) ;
+    color: rgb(0,0,0) ;
     font-family: "Romanesco";
 }
 .topbar a:link, .topbar a:visited, .topbar a:active {
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -310,7 +322,7 @@ div#lion_image {
 div.cave-grid>img 
 /* Pregnant Lionesses */
 {
-    content: url('https://i.postimg.cc/prL9J2sS/caveicon.png') !important;
+    content: url('https://i.pinimg.com/736x/56/92/fc/5692fcecf065a3a1673109c7c2d38e4c.jpg') !important;
     border-radius: 50px;
     height: 150px;
     width: 250px;
@@ -318,33 +330,33 @@ div.cave-grid>img
 }
 
 a[href$="381245"]>div.cave-grid>img {
-    content: url('https://i.pinimg.com/736x/a9/f4/98/a9f4981cdd9f752ac0750e48c97374b3.jpg') !important;
+    content: url('https://i.pinimg.com/736x/56/92/fc/5692fcecf065a3a1673109c7c2d38e4c.jpg') !important;
 }
 
 a[href$="325460"]>div.cave-grid>img {
-    content: url('https://i.pinimg.com/736x/a9/f4/98/a9f4981cdd9f752ac0750e48c97374b3.jpg') !important;
+    content: url('https://i.pinimg.com/736x/56/92/fc/5692fcecf065a3a1673109c7c2d38e4c.jpg') !important;
 }
 
 a[href$="210125"]>div.cave-grid>img {
-    content: url('https://i.pinimg.com/736x/a9/f4/98/a9f4981cdd9f752ac0750e48c97374b3.jpg') !important;
+    content: url('https://i.pinimg.com/736x/56/92/fc/5692fcecf065a3a1673109c7c2d38e4c.jpg') !important;
 }
 
 a[href$="lionoverview.php?id=269782"]>div.cave-grid>img 
 /* Pride Overview */
 {
-    content: url('https://i.pinimg.com/736x/a9/f4/98/a9f4981cdd9f752ac0750e48c97374b3.jpg') !important;
+    content: url('https://i.pinimg.com/736x/56/92/fc/5692fcecf065a3a1673109c7c2d38e4c.jpg') !important;
 }
 
 a[href$="unsorted.php?id=269782"]>div.cave-grid>img 
 /* Unsorted */
 {
-    content: url('https://i.pinimg.com/736x/a9/f4/98/a9f4981cdd9f752ac0750e48c97374b3.jpg') !important;
+    content: url('https://i.pinimg.com/736x/56/92/fc/5692fcecf065a3a1673109c7c2d38e4c.jpg') !important;
 }
 
 .mound-grid img 
 /* Mound(s) */
 {
-    content: url("https://i.postimg.cc/tRxFSQx2/caveicon.png");
+    content: url("https://i.pinimg.com/736x/56/92/fc/5692fcecf065a3a1673109c7c2d38e4c.jpg");
     position: relative;
     width: 200px;
     height: 150px;
