@@ -11,6 +11,62 @@
   
 }
 
+.smallbox {
+	float: left;
+	background: rgba(255,226,154,0.9);
+	color: #ffffff;
+	padding: 10px;
+	border: 2px solid #000000;
+	border-radius: 50px;
+	margin: 10px;
+	height: 50px;
+	width: 43.8%;
+	overflow: auto;
+        transition: 2s
+}
+
+.smallhoverbox:hover {
+	height: 150px;
+	width: 43.8%;
+}
+
+.mediumhoverbox {
+	float: left;
+	background: rgba(255,226,154,0.9);
+	color: #ffffff;
+	padding: 10px;
+	border: 2px solid #000000;
+	border-radius: 0px;
+	margin: 10px;
+	height: 50px;
+	width: 43.8%;
+	overflow: auto;
+        transition: 2s
+}
+
+.mediumhoverbox:hover {
+	height: 150px;
+	width: 43.8%;
+}
+
+.largehoverbox {
+	float: left;
+	background: rgba(255,226,154,0.9);
+	color: #ffffff;
+	padding: 10px;
+	border: 2px solid #000000;
+	border-radius: 0px;
+	margin: 10px;
+	height: 50px;
+	width: 90%;
+	overflow: auto;
+        transition: 3s
+}
+
+.largehoverbox:hover {
+	height: 150px;
+	width: 90%;
+}
 body {
     background: url('https://i.ibb.co/bRyPnmBT/Untitled.png');
     background-size: 1900px;
@@ -373,30 +429,25 @@ a[href$="unsorted.php?id=269782"]>div.cave-grid>img
 }
 
 .s-chat-message:nth-child(even) {
-    background: rgb(224,166,166) !important;
+    background: rgb(255,255,255) !important;
     color: #000000 !important;
     border: none;
-    font-size: 19px;
-    text-align: center;
 }
 .s-chat-message:nth-child(odd) {
-    background: rgb(236,205,205) !important;
+    background: rgb(236,220,205) !important;
     color: rgb(59, 43, 46) !important;
     border: none !important;
-    font-size: 19px;
-    text-align: center;
 }
 
 .s-chat-message__pinned,
 .s-chat-message__pinned a {
-    background: rgb(241,202,202) !important;
-    color: #623434 !important;
+    background: rgb(86, 65, 56) !important;
+    color: #ffffff !important;
     border: none !important;
 }
 /* Timestamps */
 .s-chat-message_timestamp {
-    color: #751919 !important;
-    text-align: left; !important
+    color: #000000 !important;
 }
 
 #chatMessageContainer {
@@ -404,8 +455,8 @@ a[href$="unsorted.php?id=269782"]>div.cave-grid>img
 }
 
 button#label_currentChannel {
-    background: rgb(255,249,246) !important;
-    color: rgb(255,136,136) !important;
+    background: rgb(86, 65, 56) !important;
+    color: rgb(255,255,255) !important;
     border-radius: 90px !important;
     **;
 }
