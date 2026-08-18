@@ -572,13 +572,13 @@ a[href$="unsorted.php?id=269782"]>div.cave-grid>img
      
 }
 .s-chat-message:nth-child(even) {
-    background: rgb(224,206,241) !important;
-    color: #2E183E !important;
+    background: rgb(221,221,221) !important;
+    color: #000000 !important;
     border: none;
 }
 .s-chat-message:nth-child(odd) {
-    background: rgb(255,255,255) !important;
-    color: #2E183E !important;
+    background: rgb(117,117,117) !important;
+    color: #000000 !important;
     border: none !important;
 }
 
@@ -588,13 +588,13 @@ a[href$="unsorted.php?id=269782"]>div.cave-grid>img
 
 
 .s-chat-message__pinned {
-    background: rgb(214,184,230) !important;
+    background: rgb(255,255,255) !important;
     color: #2E183E  !important;
     border: none !important;
 }
 /* Timestamps */
 .s-chat-message_timestamp {
-    color: #2E183E !important;
+    color: #000000 !important;
 }
 
 
@@ -610,8 +610,8 @@ a[href$="unsorted.php?id=269782"]>div.cave-grid>img
 
 
 button#label_currentChannel {
-    background: rgb(223,197,234) !important;
-    color: rgb(255,255,255) !important;
+    background: rgb(255,255,255) !important;
+    color: rgb(0,0,0) !important;
     border: dashed !important;
     **;
 }
