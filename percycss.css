@@ -2,7 +2,12 @@
 
 
 
-
+/* Spinning Star With Falling Stars - https://www.cursors-4u.com/cursor/spinning-star-with-falling-stars */
+* {
+  cursor: url('https://i.ibb.co/MyRjpkG6/image.webp') 0 0, auto !important;
+    
+}
+/* End www.Cursors-4U.com Code */
 
 
 
@@ -76,15 +81,16 @@ body {
     background: rgba(79,45,12,0);
     font-family: "comfortaa";
     border: none !important;
-    color: rgb(220, 204, 187);
+    color: rgb(220, 204, 187) !important;
     box-shadow: none;
     border-radius: 0px;
 }
 
+.col-md-12 {
+    color: rgb(220, 204, 187) !important;
+}
 
 
-
-/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/cursors/cur-9/cur267.cur), auto !important;} /* End https://www.cursors-4u.com */
 
 
 
@@ -145,7 +151,7 @@ div.left {
     background: rgba(75, 83, 88, .7) !important;
     border: none !important;
     box-shadow: none !important;
-    color: #2E183E !important;
+    color: #000000 !important;
 }
 .progress {
     background: rgba(3, 3, 3,.1);
@@ -395,13 +401,13 @@ th,
 .right_cub {
     background: rgba(255,255,255,0.5) !important;
 }
-a:link,rgba(69,35,117,0.66)
+a:link,
 a:visited {
-    color: #7e5fa4 !important;
+    color: #000000 !important;
     font-family: "comfortaa" !important;
 }
 a:hover {
-    color: rgb(114,53,126) !important;
+    color: rgb(0,0,0) !important;
     font-family: "comfortaa" !important;
 }
 
@@ -415,7 +421,7 @@ a:hover {
 input,
 select,
 textarea {
-    background:rgba(211,190,221,0.66);
+    background:rgba(255,255,255,0.66);
     border: none !important;
     box-shadow: none !important;
     color: rgb(0,0,0) !important;
@@ -445,7 +451,7 @@ input[type=button] {
 }
 input[type=button]:hover,
 input[type=submit]:hover {
-    background: rgb(160,207,147) !important;
+    background: rgb(220, 204, 187) !important;
     font-family: "comfortaa";
 }
 div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
@@ -463,7 +469,7 @@ div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img:hover 
 
 
 div#lion_image {
-    border-radius: 20% !important;
+    border-radius: 100px !important;
     border: none;
     overflow: hidden;
     margin-top: 15px;
@@ -481,7 +487,7 @@ div#lion_image {
 div.cave-grid>img 
 /* Pregnant Lionesses */
 {
-    content: url('https://wallpaperaccess.com/full/1152092.jpg') !important;
+    content: url('https://i.pinimg.com/736x/30/52/29/3052290c0c982de36527a4fd1ace63b5.jpg') !important;
     border-radius: 50px;
     height: 200px;
     width: 250px;
@@ -531,7 +537,7 @@ a[href$="210125"]>div.cave-grid>img {
 a[href$="lionoverview.php?id=269782"]>div.cave-grid>img 
 /* Pride Overview */
 {
-    content: url('https://wallpaperaccess.com/full/1152092.jpg') !important;
+    content: url('https://i.pinimg.com/736x/30/52/29/3052290c0c982de36527a4fd1ace63b5.jpg') !important;
 }
 
 
@@ -557,7 +563,7 @@ a[href$="unsorted.php?id=269782"]>div.cave-grid>img
 .mound-grid img 
 /* Mound(s) */
 {
-    content: url("https://wallpaperaccess.com/full/1152092.jpg");
+    content: url("https://i.pinimg.com/1200x/29/5b/79/295b793098d9f2da7441d3316b9a9b87.jpg");
     position: relative;
     width: 150px;
     padding-top: -0px;
