@@ -11,6 +11,14 @@
   
 }
 
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex
+}
+
 .smallbox {
 	float: left;
 	background: rgba(255,226,154,0.9);
