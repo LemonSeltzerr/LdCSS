@@ -28,7 +28,7 @@
 	border-radius: 0px;
 	margin: 10px;
 	height: 50px;
-	width: 43.8%;
+	width: 4.3%;
 	overflow: auto;
         transition: 3s
 }
@@ -54,7 +54,7 @@
 
 .mediumhoverbox:hover {
 	height: 150px;
-	width: 43.8%;
+
 }
 
 .largehoverbox {
@@ -73,7 +73,7 @@
 
 .largehoverbox:hover {
 	height: 150px;
-	width: 90%;
+	
 }
 body {
     background: url('https://i.ibb.co/bRyPnmBT/Untitled.png');
